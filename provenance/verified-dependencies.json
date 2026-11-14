@@ -1,0 +1,208 @@
+[
+  {
+    "artifactId": "jcip-annotations", 
+    "groupId": "com.github.stephenc.jcip", 
+    "jar_sha256": "4fccff8382aafc589962c4edb262f6aa595e34f1e11e61057d1c6a96e8fc7323", 
+    "matched_class_count": 4, 
+    "repository": "https://repo1.maven.org/maven2/", 
+    "target_class_count": 4, 
+    "version": "1.0-1"
+  }, 
+  {
+    "artifactId": "nimbus-jose-jwt", 
+    "groupId": "com.nimbusds", 
+    "jar_sha256": "e20e3e8ebdcee6450ac866a3d6bd0154b291b29e1d8fb7c0358ee19eaec038b9", 
+    "matched_class_count": 389, 
+    "repository": "https://repo1.maven.org/maven2/", 
+    "target_class_count": 389, 
+    "version": "9.13"
+  }, 
+  {
+    "artifactId": "aircompressor", 
+    "groupId": "io.airlift", 
+    "jar_sha256": "610938768aee8e4279af55f35bba5276d34cac447d4614897e26deb907e3115d", 
+    "matched_class_count": 125, 
+    "repository": "https://repo1.maven.org/maven2/", 
+    "target_class_count": 125, 
+    "version": "0.25"
+  }, 
+  {
+    "artifactId": "httpasyncclient", 
+    "groupId": "org.apache.httpcomponents", 
+    "jar_sha256": "50e981a8e567a16ebdad104605b156540a863459fa127b8ba647f310dfc83ef8", 
+    "matched_class_count": 86, 
+    "repository": "https://repo1.maven.org/maven2/", 
+    "target_class_count": 86, 
+    "version": "4.1.4"
+  }, 
+  {
+    "artifactId": "httpclient", 
+    "groupId": "org.apache.httpcomponents", 
+    "jar_sha256": "c03f813195e7a80e3608d0ddd8da80b21696a4c92a6a2298865bf149071551c7", 
+    "matched_class_count": 467, 
+    "repository": "https://repo1.maven.org/maven2/", 
+    "target_class_count": 467, 
+    "version": "4.5.6"
+  }, 
+  {
+    "artifactId": "httpcore", 
+    "groupId": "org.apache.httpcomponents", 
+    "jar_sha256": "78ba1096561957db1b55200a159b648876430342d15d461277e62360da19f6fd", 
+    "matched_class_count": 252, 
+    "repository": "https://repo1.maven.org/maven2/", 
+    "target_class_count": 252, 
+    "version": "4.4.10"
+  }, 
+  {
+    "artifactId": "httpcore-nio", 
+    "groupId": "org.apache.httpcomponents", 
+    "jar_sha256": "debee7e9572c02a16ce0caa4f565a9eceb1290d33cd7a1e3297087bd467daff4", 
+    "matched_class_count": 240, 
+    "repository": "https://repo1.maven.org/maven2/", 
+    "target_class_count": 240, 
+    "version": "4.4.10"
+  }, 
+  {
+    "artifactId": "jose4j", 
+    "groupId": "org.bitbucket.b_c", 
+    "jar_sha256": "6265ad3e28a8b02ac3a9f98b9efced79671df8e0a556e9851ad65ffbea51a12a", 
+    "matched_class_count": 210, 
+    "repository": "https://repo1.maven.org/maven2/", 
+    "target_class_count": 210, 
+    "version": "0.9.3"
+  }, 
+  {
+    "artifactId": "slf4j-api", 
+    "groupId": "org.slf4j", 
+    "jar_sha256": "1d5aeb6bd98b0fdd151269eae941c05f6468a791ea0f1e68d8e7fe518af3e7df", 
+    "matched_class_count": 34, 
+    "repository": "https://repo1.maven.org/maven2/", 
+    "target_class_count": 34, 
+    "version": "1.7.21"
+  }, 
+  {
+    "artifactId": "msgpack-core", 
+    "groupId": "org.msgpack", 
+    "jar_sha256": "e4fcc392651607500335122da7ba248917bbc75979f8a1972059d38a8cc3afe9", 
+    "matched_class_count": 106, 
+    "repository": "https://repo1.maven.org/maven2/", 
+    "target_class_count": 106, 
+    "version": "0.9.3"
+  }, 
+  {
+    "artifactId": "commons-codec", 
+    "groupId": "commons-codec", 
+    "jar_sha256": "4241dfa94e711d435f29a4604a3e2de5c4aa3c165e23bd066be6fc1fc4309569", 
+    "matched_class_count": 92, 
+    "repository": "https://repo1.maven.org/maven2/", 
+    "target_class_count": 92, 
+    "version": "1.10"
+  }, 
+  {
+    "artifactId": "commons-logging", 
+    "groupId": "commons-logging", 
+    "jar_sha256": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636", 
+    "matched_class_count": 28, 
+    "repository": "https://repo1.maven.org/maven2/", 
+    "target_class_count": 28, 
+    "version": "1.2"
+  }, 
+  {
+    "artifactId": "netty-buffer", 
+    "groupId": "io.netty", 
+    "jar_sha256": "d8fb397501ed59b046f69123c6d12a656066c534c564f7ba8fc3389497521c93", 
+    "matched_class_count": 138, 
+    "repository": "https://repo1.maven.org/maven2/", 
+    "target_class_count": 138, 
+    "version": "4.1.101.Final"
+  }, 
+  {
+    "artifactId": "netty-codec", 
+    "groupId": "io.netty", 
+    "jar_sha256": "982ebe55d12e5ba1a9f37a0d16d30a0baed22b9f67268fbeead3c23093864c81", 
+    "matched_class_count": 214, 
+    "repository": "https://repo1.maven.org/maven2/", 
+    "target_class_count": 214, 
+    "version": "4.1.101.Final"
+  }, 
+  {
+    "artifactId": "netty-common", 
+    "groupId": "io.netty", 
+    "jar_sha256": "aa8d1d5187d17cfbe1b668a3f3f9f6740c6fa5c96ae3bbabced4ca16b1ca14eb", 
+    "matched_class_count": 492, 
+    "repository": "https://repo1.maven.org/maven2/", 
+    "target_class_count": 492, 
+    "version": "4.1.101.Final"
+  }, 
+  {
+    "artifactId": "netty-resolver", 
+    "groupId": "io.netty", 
+    "jar_sha256": "75af5bfa8d582962d66dabbc2e71abfa0cb1d3e7a3b06e252bbe560d4f2ec063", 
+    "matched_class_count": 29, 
+    "repository": "https://repo1.maven.org/maven2/", 
+    "target_class_count": 29, 
+    "version": "4.1.101.Final"
+  }, 
+  {
+    "artifactId": "netty-transport", 
+    "groupId": "io.netty", 
+    "jar_sha256": "5bf8f47b3d4612dbb1e94bcabcad92d7b37b8be64bfe744cddc790a1f7278c74", 
+    "matched_class_count": 373, 
+    "repository": "https://repo1.maven.org/maven2/", 
+    "target_class_count": 373, 
+    "version": "4.1.101.Final"
+  }, 
+  {
+    "artifactId": "expiringmap", 
+    "groupId": "net.jodah", 
+    "jar_sha256": "07c42d3f555b18b7730141bdaf02b7c7dcea03f933a612ef386c12f95fa7a047", 
+    "matched_class_count": 28, 
+    "repository": "https://repo1.maven.org/maven2/", 
+    "target_class_count": 28, 
+    "version": "0.5.9"
+  }, 
+  {
+    "artifactId": "immutable", 
+    "groupId": "org.cloudburstmc.math", 
+    "jar_sha256": "6ada50be0ac66f4012b60ec9b0c7efe87f201ca989fd3d7963438a6bb6981ebf", 
+    "matched_class_count": 75, 
+    "repository": "https://repo.opencollab.dev/maven-releases/", 
+    "target_class_count": 75, 
+    "version": "2.0"
+  }, 
+  {
+    "artifactId": "cumulus", 
+    "groupId": "org.geysermc.cumulus", 
+    "jar_sha256": "79397a85d7f9cf40ab1fbdbd9202122f5f5c808d127f3b7079cb274334c3ffcb", 
+    "matched_class_count": 92, 
+    "repository": "https://repo.opencollab.dev/maven-releases/", 
+    "target_class_count": 92, 
+    "version": "1.1.1"
+  }, 
+  {
+    "artifactId": "math", 
+    "groupId": "com.nukkitx", 
+    "jar_sha256": "daf4e1bc02727c6be4c987723030312128ae76cb396103c686485450e044ef23", 
+    "matched_class_count": 52, 
+    "repository": "https://repo.opencollab.dev/maven-releases/", 
+    "target_class_count": 52, 
+    "version": "1.1.1"
+  }, 
+  {
+    "artifactId": "lmbda", 
+    "groupId": "org.lanternpowered", 
+    "jar_sha256": "bfb98bf74610824bd56e10d825233a660eba33ba915cf947246257f503da75f3", 
+    "matched_class_count": 21, 
+    "repository": "https://repo1.maven.org/maven2/", 
+    "target_class_count": 21, 
+    "version": "2.0.0"
+  }, 
+  {
+    "artifactId": "natives", 
+    "groupId": "com.nukkitx", 
+    "jar_sha256": "bb86e95520a7877e602797f74ecbe9318228500d4f5ee380ecba43f54df888e2", 
+    "matched_class_count": 35, 
+    "repository": "https://repo.opencollab.dev/maven-releases/", 
+    "version": "1.0.3"
+  }
+]

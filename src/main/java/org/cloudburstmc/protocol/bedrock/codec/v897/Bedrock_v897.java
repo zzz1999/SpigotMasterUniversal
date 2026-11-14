@@ -1,0 +1,83 @@
+package org.cloudburstmc.protocol.bedrock.codec.v897;
+
+import org.cloudburstmc.protocol.bedrock.codec.BedrockCodec;
+import org.cloudburstmc.protocol.bedrock.codec.v291.serializer.EntityEventSerializer_v291;
+import org.cloudburstmc.protocol.bedrock.codec.v786.serializer.LevelSoundEventSerializer_v786;
+import org.cloudburstmc.protocol.bedrock.codec.v860.Bedrock_v860;
+import org.cloudburstmc.protocol.bedrock.codec.v897.serializer.AnimateSerializer_v897;
+import org.cloudburstmc.protocol.bedrock.codec.v897.serializer.AvailableCommandsSerializer_v897;
+import org.cloudburstmc.protocol.bedrock.codec.v897.serializer.CameraAimAssistPresetsSerializer_v897;
+import org.cloudburstmc.protocol.bedrock.codec.v897.serializer.CommandOutputSerializer_v897;
+import org.cloudburstmc.protocol.bedrock.codec.v897.serializer.CommandRequestSerializer_v897;
+import org.cloudburstmc.protocol.bedrock.codec.v897.serializer.EventSerializer_v897;
+import org.cloudburstmc.protocol.bedrock.codec.v897.serializer.InteractSerializer_v897;
+import org.cloudburstmc.protocol.bedrock.codec.v897.serializer.MobEffectSerializer_v897;
+import org.cloudburstmc.protocol.bedrock.codec.v897.serializer.ResourcePackStackSerializer_v897;
+import org.cloudburstmc.protocol.bedrock.codec.v897.serializer.ServerboundDataStoreSerializer_v897;
+import org.cloudburstmc.protocol.bedrock.codec.v897.serializer.StartGameSerializer_v897;
+import org.cloudburstmc.protocol.bedrock.codec.v897.serializer.TextSerializer_v897;
+import org.cloudburstmc.protocol.bedrock.data.PacketRecipient;
+import org.cloudburstmc.protocol.bedrock.data.SoundEvent;
+import org.cloudburstmc.protocol.bedrock.data.entity.EntityEventType;
+import org.cloudburstmc.protocol.bedrock.packet.AnimatePacket;
+import org.cloudburstmc.protocol.bedrock.packet.AvailableCommandsPacket;
+import org.cloudburstmc.protocol.bedrock.packet.CameraAimAssistPresetsPacket;
+import org.cloudburstmc.protocol.bedrock.packet.CommandOutputPacket;
+import org.cloudburstmc.protocol.bedrock.packet.CommandRequestPacket;
+import org.cloudburstmc.protocol.bedrock.packet.EntityEventPacket;
+import org.cloudburstmc.protocol.bedrock.packet.EventPacket;
+import org.cloudburstmc.protocol.bedrock.packet.InteractPacket;
+import org.cloudburstmc.protocol.bedrock.packet.LevelSoundEventPacket;
+import org.cloudburstmc.protocol.bedrock.packet.MobEffectPacket;
+import org.cloudburstmc.protocol.bedrock.packet.ResourcePackStackPacket;
+import org.cloudburstmc.protocol.bedrock.packet.ServerboundDataStorePacket;
+import org.cloudburstmc.protocol.bedrock.packet.StartGamePacket;
+import org.cloudburstmc.protocol.bedrock.packet.TextPacket;
+import org.cloudburstmc.protocol.common.util.TypeMap;
+
+public class Bedrock_v897 extends Bedrock_v860 {
+   protected static final TypeMap<EntityEventType> ENTITY_EVENTS = Bedrock_v860.ENTITY_EVENTS
+      .toBuilder()
+      .insert(80, EntityEventType.KINETIC_DAMAGE_DEALT)
+      .build();
+   protected static final TypeMap<SoundEvent> SOUND_EVENTS = Bedrock_v860.SOUND_EVENTS
+      .toBuilder()
+      .replace(566, SoundEvent.LUNGE_1)
+      .insert(567, SoundEvent.LUNGE_2)
+      .insert(568, SoundEvent.LUNGE_3)
+      .insert(569, SoundEvent.ATTACK_CRITICAL)
+      .insert(570, SoundEvent.SPEAR_ATTACK_HIT)
+      .insert(571, SoundEvent.SPEAR_ATTACK_MISS)
+      .insert(572, SoundEvent.WOODEN_SPEAR_ATTACK_HIT)
+      .insert(573, SoundEvent.WOODEN_SPEAR_ATTACK_MISS)
+      .insert(574, SoundEvent.IMITATE_PARCHED)
+      .insert(575, SoundEvent.IMITATE_CAMEL_HUSK)
+      .insert(576, SoundEvent.SPEAR_USE)
+      .insert(577, SoundEvent.WOODEN_SPEAR_USE)
+      .insert(578, SoundEvent.UNDEFINED)
+      .build();
+   public static final BedrockCodec CODEC = Bedrock_v860.CODEC
+      .toBuilder()
+      .protocolVersion(897)
+      .minecraftVersion("1.21.130")
+      .helper(
+         () -> new BedrockCodecHelper_v897(
+            ENTITY_DATA, GAME_RULE_TYPES, ITEM_STACK_REQUEST_TYPES, CONTAINER_SLOT_TYPES, PLAYER_ABILITIES, TEXT_PROCESSING_ORIGINS
+         )
+      )
+      .updateSerializer(AnimatePacket.class, AnimateSerializer_v897.INSTANCE)
+      .updateSerializer(AvailableCommandsPacket.class, new AvailableCommandsSerializer_v897(COMMAND_PARAMS))
+      .updateSerializer(CameraAimAssistPresetsPacket.class, CameraAimAssistPresetsSerializer_v897.INSTANCE)
+      .updateSerializer(CommandOutputPacket.class, CommandOutputSerializer_v897.INSTANCE)
+      .updateSerializer(CommandRequestPacket.class, CommandRequestSerializer_v897.INSTANCE)
+      .updateSerializer(EntityEventPacket.class, new EntityEventSerializer_v291(ENTITY_EVENTS))
+      .updateSerializer(EventPacket.class, EventSerializer_v897.INSTANCE)
+      .updateSerializer(InteractPacket.class, InteractSerializer_v897.INSTANCE)
+      .updateSerializer(LevelSoundEventPacket.class, new LevelSoundEventSerializer_v786(SOUND_EVENTS))
+      .updateSerializer(MobEffectPacket.class, MobEffectSerializer_v897.INSTANCE)
+      .updateSerializer(ResourcePackStackPacket.class, ResourcePackStackSerializer_v897.INSTANCE)
+      .updateSerializer(StartGamePacket.class, StartGameSerializer_v897.INSTANCE)
+      .updateSerializer(TextPacket.class, TextSerializer_v897.INSTANCE)
+      .registerPacket(ServerboundDataStorePacket::new, ServerboundDataStoreSerializer_v897.INSTANCE, 332, PacketRecipient.SERVER)
+      .build();
+}

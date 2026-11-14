@@ -1,0 +1,21 @@
+name: SpigotMaster
+version: 1.4.0-universal
+main: com.neteasemc.spigotmaster.SpigotMaster
+author: netease
+load: STARTUP
+api-version: 1.13
+is-debug: false
+commands:
+  printItem:
+      description: print item data
+      usage: /printItem inventoryId
+  compareItem:
+    description: compare item data
+    usage: /compareItem inventoryId inventoryId
+  testSendPacket:
+    description: send bedrockpacket
+    usage: /testSendPacket <start/stop>
+  testSetGravity:
+    description: set entity gravity around player
+    usage: /testSetGravity gravity
+depend: [NBTAPI]

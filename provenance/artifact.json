@@ -1,0 +1,22 @@
+{
+  "decompiler": {
+    "name": "Vineflower", 
+    "url": "https://github.com/Vineflower/vineflower/releases/tag/1.12.0", 
+    "version": "1.12.0"
+  }, 
+  "embedded_maven_version": "1.3.13-SNAPSHOT", 
+  "input_class_count": 17539, 
+  "input_filename": "SpigotMaster-1.3.13-SNAPSHOT.jar", 
+  "input_main_java21_classes": [
+    "com/neteasemc/spigotmaster/versionWrapper/VersionMatcher.class", 
+    "com/neteasemc/spigotmaster/versionWrapper/VersionWrapper.class", 
+    "com/neteasemc/spigotmaster/versionWrapper/VersionWrapperUniversal.class"
+  ], 
+  "input_resource_count": 288, 
+  "input_sha256": "1a611c99cca297d5735bc2fed924a312aa8f5c848a13caf123cc9e640d52b188", 
+  "main_class_count": 90, 
+  "main_top_level_source_count": 68, 
+  "native_library": "Original libnukkit-natives.so retained as a resource; native C sources were not reconstructed.", 
+  "original_jar_included_or_used_as_build_dependency": false, 
+  "plugin_version": "1.4.0-universal"
+}

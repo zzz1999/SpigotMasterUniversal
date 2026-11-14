@@ -1,0 +1,128 @@
+package org.cloudburstmc.protocol.bedrock.packet;
+
+import org.cloudburstmc.protocol.bedrock.data.PacketViolationSeverity;
+import org.cloudburstmc.protocol.bedrock.data.PacketViolationType;
+import org.cloudburstmc.protocol.common.PacketSignal;
+
+public class PacketViolationWarningPacket implements BedrockPacket {
+   private PacketViolationType type;
+   private PacketViolationSeverity severity;
+   private int packetCauseId;
+   private String context;
+
+   @Override
+   public PacketSignal handle(BedrockPacketHandler handler) {
+      return handler.handle(this);
+   }
+
+   @Override
+   public BedrockPacketType getPacketType() {
+      return BedrockPacketType.PACKET_VIOLATION_WARNING;
+   }
+
+   public PacketViolationWarningPacket clone() {
+      try {
+         return (PacketViolationWarningPacket)super.clone();
+      } catch (CloneNotSupportedException e) {
+         throw new AssertionError(e);
+      }
+   }
+
+   public PacketViolationType getType() {
+      return this.type;
+   }
+
+   public PacketViolationSeverity getSeverity() {
+      return this.severity;
+   }
+
+   public int getPacketCauseId() {
+      return this.packetCauseId;
+   }
+
+   public String getContext() {
+      return this.context;
+   }
+
+   public void setType(final PacketViolationType type) {
+      this.type = type;
+   }
+
+   public void setSeverity(final PacketViolationSeverity severity) {
+      this.severity = severity;
+   }
+
+   public void setPacketCauseId(final int packetCauseId) {
+      this.packetCauseId = packetCauseId;
+   }
+
+   public void setContext(final String context) {
+      this.context = context;
+   }
+
+   @Override
+   public boolean equals(final Object o) {
+      if (o == this) {
+         return true;
+      }
+
+      if (!(o instanceof PacketViolationWarningPacket)) {
+         return false;
+      }
+
+      PacketViolationWarningPacket other = (PacketViolationWarningPacket)o;
+      if (!other.canEqual(this)) {
+         return false;
+      }
+
+      if (this.packetCauseId != other.packetCauseId) {
+         return false;
+      }
+
+      Object this$type = this.type;
+      Object other$type = other.type;
+      if (this$type == null ? other$type == null : this$type.equals(other$type)) {
+         Object this$severity = this.severity;
+         Object other$severity = other.severity;
+         if (this$severity == null ? other$severity == null : this$severity.equals(other$severity)) {
+            Object this$context = this.context;
+            Object other$context = other.context;
+            return this$context == null ? other$context == null : this$context.equals(other$context);
+         } else {
+            return false;
+         }
+      } else {
+         return false;
+      }
+   }
+
+   protected boolean canEqual(final Object other) {
+      return other instanceof PacketViolationWarningPacket;
+   }
+
+   @Override
+   public int hashCode() {
+      int PRIME = 59;
+      int result = 1;
+      result = result * 59 + this.packetCauseId;
+      Object $type = this.type;
+      result = result * 59 + ($type == null ? 43 : $type.hashCode());
+      Object $severity = this.severity;
+      result = result * 59 + ($severity == null ? 43 : $severity.hashCode());
+      Object $context = this.context;
+      return result * 59 + ($context == null ? 43 : $context.hashCode());
+   }
+
+   @Override
+   public String toString() {
+      return "PacketViolationWarningPacket(type="
+         + this.type
+         + ", severity="
+         + this.severity
+         + ", packetCauseId="
+         + this.packetCauseId
+         + ", context="
+         + this.context
+         + ")";
+   }
+}

@@ -1,0 +1,257 @@
+--- a/com/nukkitx/network/raknet/RakNetClient.java
++++ b/com/nukkitx/network/raknet/RakNetClient.java
+@@ -7,6 +7,7 @@
+ import io.netty.buffer.ByteBuf;
+ import io.netty.channel.Channel;
+ import io.netty.channel.ChannelFuture;
++import io.netty.channel.ChannelFutureListener;
+ import io.netty.channel.ChannelInitializer;
+ import io.netty.channel.ChannelPipeline;
+ import io.netty.channel.EventLoop;
+@@ -54,7 +55,7 @@
+       this.bootstrap.handler(new RakNetClient.ClientChannelInitializer());
+       ChannelFuture channelFuture = this.bindAddress == null ? this.bootstrap.bind() : this.bootstrap.bind(this.bindAddress);
+       CompletableFuture<Void> future = new CompletableFuture<>();
+-      channelFuture.addListener(promise -> {
++      channelFuture.addListener((ChannelFutureListener)promise -> {
+          if (promise.cause() != null) {
+             future.completeExceptionally(promise.cause());
+          } else {
+--- a/com/nukkitx/protocol/bedrock/codec/BedrockCodec.java
++++ b/com/nukkitx/protocol/bedrock/codec/BedrockCodec.java
+@@ -50,10 +50,10 @@
+          UnknownPacket unknownPacket = new UnknownPacket();
+          unknownPacket.setPacketId(id);
+          packet = unknownPacket;
+-         serializer = unknownPacket;
++         serializer = (BedrockPacketSerializer)unknownPacket;
+       } else {
+          packet = definition.getFactory().get();
+-         serializer = definition.getSerializer();
++         serializer = (BedrockPacketSerializer)definition.getSerializer();
+       }
+ 
+       try {
+@@ -169,7 +169,7 @@
+          Preconditions.checkArgument(id >= 0, "id cannot be negative");
+          Preconditions.checkArgument(!this.packets.containsKey(packetClass), "Packet class already registered");
+ 
+-         Supplier<Object> factory;
++         Supplier<T> factory;
+          try {
+             Lookup lookup = MethodHandlesExtensions.privateLookupIn(packetClass, MethodHandles.lookup());
+             MethodHandle handle = lookup.findConstructor(packetClass, MethodType.methodType(void.class));
+--- a/com/nukkitx/protocol/bedrock/codec/EntityDataTypeMap.java
++++ b/com/nukkitx/protocol/bedrock/codec/EntityDataTypeMap.java
+@@ -208,7 +208,7 @@
+          definition.transformer = transformer;
+          this.iterateIndex(definition.getId(), def -> {
+             if (def.getFormat() == definition.getFormat()) {
+-               def.transformer = transformer;
++               ((EntityDataTypeMap.Definition<T>)def).transformer = transformer;
+             }
+          });
+          return this;
+--- a/org/cloudburstmc/nbt/NBTInputStream.java
++++ b/org/cloudburstmc/nbt/NBTInputStream.java
+@@ -132,7 +132,7 @@
+                list.add(this.deserialize(listType, maxDepth - 1));
+             }
+ 
+-            return new NbtList<>(listType, list);
++            return new NbtList<>((NbtType)listType, list);
+          case INT_ARRAY: {
+             int arraySize = this.input.readInt();
+             int[] ints = new int[arraySize];
+--- a/org/cloudburstmc/netty/channel/raknet/RakServerChannel.java
++++ b/org/cloudburstmc/netty/channel/raknet/RakServerChannel.java
+@@ -1,6 +1,7 @@
+ package org.cloudburstmc.netty.channel.raknet;
+ 
+ import io.netty.channel.ChannelFuture;
++import io.netty.channel.ChannelFutureListener;
+ import io.netty.channel.ChannelPromise;
+ import io.netty.channel.ServerChannel;
+ import io.netty.channel.socket.DatagramChannel;
+@@ -40,7 +41,7 @@
+       }
+ 
+       RakChildChannel channel = new RakChildChannel(address, this, clientGuid, protocolVersion, mtu);
+-      channel.closeFuture().addListener(this::onChildClosed);
++      channel.closeFuture().addListener((ChannelFutureListener)this::onChildClosed);
+       this.pipeline().fireChannelRead(channel).fireChannelReadComplete();
+       this.childChannelMap.put(address, channel);
+       return channel;
+--- a/org/cloudburstmc/netty/channel/raknet/config/DefaultRakClientConfig.java
++++ b/org/cloudburstmc/netty/channel/raknet/config/DefaultRakClientConfig.java
+@@ -27,9 +27,9 @@
+       if (option == RakChannelOption.RAK_UNCONNECTED_MAGIC) {
+          return (T)this.getUnconnectedMagic();
+       } else if (option == RakChannelOption.RAK_CONNECT_TIMEOUT) {
+-         return (T)this.getConnectTimeout();
++         return (T)Long.valueOf(this.getConnectTimeout());
+       } else if (option == RakChannelOption.RAK_REMOTE_GUID) {
+-         return (T)this.getServerGuid();
++         return (T)Long.valueOf(this.getServerGuid());
+       } else {
+          return (T)(option == RakChannelOption.RAK_SESSION_TIMEOUT ? this.getSessionTimeout() : super.getOption(option));
+       }
+--- a/org/cloudburstmc/netty/channel/raknet/config/DefaultRakServerConfig.java
++++ b/org/cloudburstmc/netty/channel/raknet/config/DefaultRakServerConfig.java
+@@ -44,15 +44,15 @@
+    @Override
+    public <T> T getOption(ChannelOption<T> option) {
+       if (option == RakChannelOption.RAK_MAX_MTU) {
+-         return (T)this.getMaxMtu();
++         return (T)Integer.valueOf(this.getMaxMtu());
+       } else if (option == RakChannelOption.RAK_MIN_MTU) {
+-         return (T)this.getMinMtu();
++         return (T)Integer.valueOf(this.getMinMtu());
+       } else if (option == RakChannelOption.RAK_GUID) {
+-         return (T)this.getGuid();
++         return (T)Long.valueOf(this.getGuid());
+       } else if (option == RakChannelOption.RAK_MAX_CHANNELS) {
+-         return (T)this.getMaxChannels();
++         return (T)Integer.valueOf(this.getMaxChannels());
+       } else if (option == RakChannelOption.RAK_MAX_CONNECTIONS) {
+-         return (T)this.getMaxConnections();
++         return (T)Integer.valueOf(this.getMaxConnections());
+       } else if (option == RakChannelOption.RAK_SUPPORTED_PROTOCOLS) {
+          return (T)this.getSupportedProtocols();
+       } else if (option == RakChannelOption.RAK_UNCONNECTED_MAGIC) {
+@@ -60,11 +60,11 @@
+       } else if (option == RakChannelOption.RAK_ADVERTISEMENT) {
+          return (T)this.getAdvertisement();
+       } else if (option == RakChannelOption.RAK_HANDLE_PING) {
+-         return (T)this.getHandlePing();
++         return (T)Boolean.valueOf(this.getHandlePing());
+       } else if (option == RakChannelOption.RAK_PACKET_LIMIT) {
+-         return (T)this.getPacketLimit();
++         return (T)Integer.valueOf(this.getPacketLimit());
+       } else if (option == RakChannelOption.RAK_GLOBAL_PACKET_LIMIT) {
+-         return (T)this.getGlobalPacketLimit();
++         return (T)Integer.valueOf(this.getGlobalPacketLimit());
+       } else {
+          return (T)(option == RakChannelOption.RAK_OFFLINE_PACKET_LIMIT ? this.getUnconnectedPacketLimit() : this.channel.parent().config().getOption(option));
+       }
+--- a/org/cloudburstmc/netty/channel/raknet/config/DefaultRakSessionConfig.java
++++ b/org/cloudburstmc/netty/channel/raknet/config/DefaultRakSessionConfig.java
+@@ -29,19 +29,19 @@
+    @Override
+    public <T> T getOption(ChannelOption<T> option) {
+       if (option == RakChannelOption.RAK_GUID) {
+-         return (T)this.getGuid();
++         return (T)Long.valueOf(this.getGuid());
+       } else if (option == RakChannelOption.RAK_MTU) {
+-         return (T)this.getMtu();
++         return (T)Integer.valueOf(this.getMtu());
+       } else if (option == RakChannelOption.RAK_PROTOCOL_VERSION) {
+-         return (T)this.getProtocolVersion();
++         return (T)Integer.valueOf(this.getProtocolVersion());
+       } else if (option == RakChannelOption.RAK_ORDERING_CHANNELS) {
+-         return (T)this.getOrderingChannels();
++         return (T)Integer.valueOf(this.getOrderingChannels());
+       } else if (option == RakChannelOption.RAK_METRICS) {
+          return (T)this.getMetrics();
+       } else if (option == RakChannelOption.RAK_SESSION_TIMEOUT) {
+-         return (T)this.getSessionTimeout();
++         return (T)Long.valueOf(this.getSessionTimeout());
+       } else if (option == RakChannelOption.RAK_AUTO_FLUSH) {
+-         return (T)this.isAutoFlush();
++         return (T)Boolean.valueOf(this.isAutoFlush());
+       } else {
+          return (T)(option == RakChannelOption.RAK_FLUSH_INTERVAL ? this.getFlushInterval() : this.channel.parent().config().getOption(option));
+       }
+--- a/org/cloudburstmc/protocol/bedrock/codec/BedrockCodec.java
++++ b/org/cloudburstmc/protocol/bedrock/codec/BedrockCodec.java
+@@ -45,10 +45,10 @@
+          UnknownPacket unknownPacket = new UnknownPacket();
+          unknownPacket.setPacketId(id);
+          packet = unknownPacket;
+-         serializer = unknownPacket;
++         serializer = (BedrockPacketSerializer)unknownPacket;
+       } else {
+          packet = definition.getFactory().get();
+-         serializer = definition.getSerializer();
++         serializer = (BedrockPacketSerializer)definition.getSerializer();
+       }
+ 
+       try {
+--- a/org/cloudburstmc/protocol/bedrock/codec/EntityDataTypeMap.java
++++ b/org/cloudburstmc/protocol/bedrock/codec/EntityDataTypeMap.java
+@@ -218,7 +218,7 @@
+          definition.transformer = transformer;
+          this.iterateIndex(definition.getId(), def -> {
+             if (def.getFormat() == definition.getFormat()) {
+-               def.transformer = transformer;
++               ((EntityDataTypeMap.Definition<T>)def).transformer = transformer;
+             }
+          });
+          return this;
+--- a/org/cloudburstmc/protocol/bedrock/codec/v766/BedrockCodecHelper_v766.java
++++ b/org/cloudburstmc/protocol/bedrock/codec/v766/BedrockCodecHelper_v766.java
+@@ -29,7 +29,7 @@
+    public <T extends Enum<?>> void readLargeVarIntFlags(ByteBuf buffer, Set<T> flags, Class<T> clazz) {
+       BigInteger flagsInt = VarInts.readUnsignedBigVarInt(buffer, ((Enum[])clazz.getEnumConstants()).length);
+ 
+-      for (T flag : (Enum[])clazz.getEnumConstants()) {
++      for (T flag : clazz.getEnumConstants()) {
+          if (flagsInt.testBit(flag.ordinal())) {
+             flags.add(flag);
+          }
+--- a/org/objectweb/asm/ClassReader.java
++++ b/org/objectweb/asm/ClassReader.java
+@@ -1460,7 +1460,7 @@
+                methodVisitor.visitJumpInsn(opcode, labels[currentBytecodeOffset + this.readShort(currentOffset + 1)]);
+                currentOffset += 3;
+                break;
+-            case 170:
++            case 170: {
+                currentOffset += 4 - (currentBytecodeOffset & 3);
+                Label defaultLabel = labels[currentBytecodeOffset + this.readInt(currentOffset)];
+                int low = this.readInt(currentOffset + 4);
+@@ -1475,7 +1475,8 @@
+ 
+                methodVisitor.visitTableSwitchInsn(low, high, defaultLabel, table);
+                break;
+-            case 171:
++            }
++            case 171: {
+                currentOffset += 4 - (currentBytecodeOffset & 3);
+                Label defaultLabel = labels[currentBytecodeOffset + this.readInt(currentOffset)];
+                int numPairs = this.readInt(currentOffset + 4);
+@@ -1491,6 +1492,7 @@
+ 
+                methodVisitor.visitLookupSwitchInsn(defaultLabel, keys, values);
+                break;
++            }
+             case 178:
+             case 179:
+             case 180:
+@@ -1498,7 +1500,7 @@
+             case 182:
+             case 183:
+             case 184:
+-            case 185:
++            case 185: {
+                int cpInfoOffset = this.cpInfoOffsets[this.readUnsignedShort(currentOffset + 1)];
+                int nameAndTypeCpInfoOffset = this.cpInfoOffsets[this.readUnsignedShort(cpInfoOffset + 2)];
+                String owner = this.readClass(cpInfoOffset, charBuffer);
+@@ -1517,7 +1519,8 @@
+                   currentOffset += 3;
+                }
+                break;
+-            case 186:
++            }
++            case 186: {
+                int cpInfoOffset = this.cpInfoOffsets[this.readUnsignedShort(currentOffset + 1)];
+                int nameAndTypeCpInfoOffset = this.cpInfoOffsets[this.readUnsignedShort(cpInfoOffset + 2)];
+                String name = this.readUTF8(nameAndTypeCpInfoOffset, charBuffer);
+@@ -1535,6 +1538,7 @@
+                methodVisitor.visitInvokeDynamicInsn(name, descriptor, handle, bootstrapMethodArguments);
+                currentOffset += 5;
+                break;
++            }
+             case 187:
+             case 189:
+             case 192:

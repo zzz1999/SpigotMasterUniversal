@@ -1,0 +1,16 @@
+package org.cloudburstmc.protocol.bedrock.codec.v630.serializer;
+
+import io.netty.buffer.ByteBuf;
+import org.cloudburstmc.protocol.bedrock.codec.BedrockCodecHelper;
+import org.cloudburstmc.protocol.bedrock.codec.BedrockPacketSerializer;
+import org.cloudburstmc.protocol.bedrock.packet.ServerPlayerPostMovePositionPacket;
+
+public class ServerPlayerPostMovePositionSerializer_v630 implements BedrockPacketSerializer<ServerPlayerPostMovePositionPacket> {
+   public void serialize(ByteBuf buffer, BedrockCodecHelper helper, ServerPlayerPostMovePositionPacket packet) {
+      helper.writeVector3f(buffer, packet.getPosition());
+   }
+
+   public void deserialize(ByteBuf buffer, BedrockCodecHelper helper, ServerPlayerPostMovePositionPacket packet) {
+      packet.setPosition(helper.readVector3f(buffer));
+   }
+}

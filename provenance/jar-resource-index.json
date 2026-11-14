@@ -1,0 +1,2018 @@
+[
+  {
+    "destination": "src/main/resources/libnukkit-natives.so", 
+    "modified": false, 
+    "original_sha256": "b4038fe9264a85f6f5aa7ce4cb511e6f6d515f9218057eb7053bf3e38a0eb4a4", 
+    "path": "libnukkit-natives.so", 
+    "stored_sha256": "b4038fe9264a85f6f5aa7ce4cb511e6f6d515f9218057eb7053bf3e38a0eb4a4"
+  }, 
+  {
+    "destination": "src/main/resources/LICENSE.txt", 
+    "modified": false, 
+    "original_sha256": "105c359bc3860aa74c45b75fc9c286f6e487feedf99f3700de4798c9f9b2adfa", 
+    "path": "LICENSE.txt", 
+    "stored_sha256": "105c359bc3860aa74c45b75fc9c286f6e487feedf99f3700de4798c9f9b2adfa"
+  }, 
+  {
+    "destination": "src/main/resources/META-INF/DEPENDENCIES", 
+    "modified": false, 
+    "original_sha256": "1e583b84284f164444813f392eadbc15b40d53b6e1ac18bc02141748d6470aeb", 
+    "path": "META-INF/DEPENDENCIES", 
+    "stored_sha256": "1e583b84284f164444813f392eadbc15b40d53b6e1ac18bc02141748d6470aeb"
+  }, 
+  {
+    "destination": "src/main/resources/META-INF/io.netty.versions.properties", 
+    "modified": false, 
+    "original_sha256": "d4dede301779be719f93cc9e21e4848a1d32acd0017792562fe797c5457c9fe0", 
+    "path": "META-INF/io.netty.versions.properties", 
+    "stored_sha256": "d4dede301779be719f93cc9e21e4848a1d32acd0017792562fe797c5457c9fe0"
+  }, 
+  {
+    "destination": "src/main/resources/META-INF/LICENSE", 
+    "modified": false, 
+    "original_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30", 
+    "path": "META-INF/LICENSE", 
+    "stored_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  }, 
+  {
+    "destination": "src/main/resources/META-INF/LICENSE.txt", 
+    "modified": false, 
+    "original_sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5", 
+    "path": "META-INF/LICENSE.txt", 
+    "stored_sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+  }, 
+  {
+    "destination": "src/main/resources/META-INF/lmbda.kotlin_module", 
+    "modified": false, 
+    "original_sha256": "c65dbaaa90815ac006b71deb0d18de83eb7a243610b23f724bb4027198b8e723", 
+    "path": "META-INF/lmbda.kotlin_module", 
+    "stored_sha256": "c65dbaaa90815ac006b71deb0d18de83eb7a243610b23f724bb4027198b8e723"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/MANIFEST.MF", 
+    "modified": false, 
+    "original_sha256": "18a8d50b18d58d7f643ea304791651a5f4a647f3c7e9765f7a7d1a693cb370ed", 
+    "path": "META-INF/MANIFEST.MF", 
+    "stored_sha256": "18a8d50b18d58d7f643ea304791651a5f4a647f3c7e9765f7a7d1a693cb370ed"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.github.stephenc.jcip/jcip-annotations/pom.properties", 
+    "modified": false, 
+    "original_sha256": "3453055135512306a1dbf69f811c54455bf55dff4d7a5cf6c4fceae38b7d7658", 
+    "path": "META-INF/maven/com.github.stephenc.jcip/jcip-annotations/pom.properties", 
+    "stored_sha256": "3453055135512306a1dbf69f811c54455bf55dff4d7a5cf6c4fceae38b7d7658"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.github.stephenc.jcip/jcip-annotations/pom.xml", 
+    "modified": false, 
+    "original_sha256": "68c2a5aa6e8f345743093e52b5b9e0190ba4d5a5215c0a59b4d7d33647208cbb", 
+    "path": "META-INF/maven/com.github.stephenc.jcip/jcip-annotations/pom.xml", 
+    "stored_sha256": "68c2a5aa6e8f345743093e52b5b9e0190ba4d5a5215c0a59b4d7d33647208cbb"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.neteasemc/SpigotMaster/pom.properties", 
+    "modified": false, 
+    "original_sha256": "622701bc55964252508f7dc4737dbd2a3a0c7d5bf83c10c39a2867ee0fb17a8f", 
+    "path": "META-INF/maven/com.neteasemc/SpigotMaster/pom.properties", 
+    "stored_sha256": "622701bc55964252508f7dc4737dbd2a3a0c7d5bf83c10c39a2867ee0fb17a8f"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.neteasemc/SpigotMaster/pom.xml", 
+    "modified": false, 
+    "original_sha256": "ccb5f562084107133e52fb3d424d8d3a5c43f8d73ed3c1df63b76ccf6407ebd8", 
+    "path": "META-INF/maven/com.neteasemc/SpigotMaster/pom.xml", 
+    "stored_sha256": "ccb5f562084107133e52fb3d424d8d3a5c43f8d73ed3c1df63b76ccf6407ebd8"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.neteasemc/SpigotMaster-BaseWrapper/pom.properties", 
+    "modified": false, 
+    "original_sha256": "b936f9e6b21bfa6e92e3b4ef03475158443976472d614f084a14516af5ad8739", 
+    "path": "META-INF/maven/com.neteasemc/SpigotMaster-BaseWrapper/pom.properties", 
+    "stored_sha256": "b936f9e6b21bfa6e92e3b4ef03475158443976472d614f084a14516af5ad8739"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.neteasemc/SpigotMaster-BaseWrapper/pom.xml", 
+    "modified": false, 
+    "original_sha256": "76bdb08829009052f1b29d8b43145e3c4267d51e2220a65e70304eed87649d51", 
+    "path": "META-INF/maven/com.neteasemc/SpigotMaster-BaseWrapper/pom.xml", 
+    "stored_sha256": "76bdb08829009052f1b29d8b43145e3c4267d51e2220a65e70304eed87649d51"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.neteasemc/SpigotMaster-VersonWrapper-1_12_R1/pom.properties", 
+    "modified": false, 
+    "original_sha256": "ff4e53922cfd69476aa1810b1ff05469645ff527c201dbf6278ed6ecefb807fd", 
+    "path": "META-INF/maven/com.neteasemc/SpigotMaster-VersonWrapper-1_12_R1/pom.properties", 
+    "stored_sha256": "ff4e53922cfd69476aa1810b1ff05469645ff527c201dbf6278ed6ecefb807fd"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.neteasemc/SpigotMaster-VersonWrapper-1_12_R1/pom.xml", 
+    "modified": false, 
+    "original_sha256": "9dc56afdceeed12b980d851af21550ad0d89f1c0e7ff75111582fa9849df1a7a", 
+    "path": "META-INF/maven/com.neteasemc/SpigotMaster-VersonWrapper-1_12_R1/pom.xml", 
+    "stored_sha256": "9dc56afdceeed12b980d851af21550ad0d89f1c0e7ff75111582fa9849df1a7a"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.neteasemc/SpigotMaster-VersonWrapper-1_18_R1/pom.properties", 
+    "modified": false, 
+    "original_sha256": "21cb6306171654b1b6858d86e93a5f8fda8bd0f94a0fa4d920055a377cbd1828", 
+    "path": "META-INF/maven/com.neteasemc/SpigotMaster-VersonWrapper-1_18_R1/pom.properties", 
+    "stored_sha256": "21cb6306171654b1b6858d86e93a5f8fda8bd0f94a0fa4d920055a377cbd1828"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.neteasemc/SpigotMaster-VersonWrapper-1_18_R1/pom.xml", 
+    "modified": false, 
+    "original_sha256": "94b6d85dd75323d810767a7b76fc486eba977fb54e71ed5bbee44556644e3cd8", 
+    "path": "META-INF/maven/com.neteasemc/SpigotMaster-VersonWrapper-1_18_R1/pom.xml", 
+    "stored_sha256": "94b6d85dd75323d810767a7b76fc486eba977fb54e71ed5bbee44556644e3cd8"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.neteasemc/SpigotMaster-VersonWrapper-1_18_R2/pom.properties", 
+    "modified": false, 
+    "original_sha256": "014d8963211c1e6eb486e207cb68c0837f29d95986cbb84c6ffc71d4c82e2c83", 
+    "path": "META-INF/maven/com.neteasemc/SpigotMaster-VersonWrapper-1_18_R2/pom.properties", 
+    "stored_sha256": "014d8963211c1e6eb486e207cb68c0837f29d95986cbb84c6ffc71d4c82e2c83"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.neteasemc/SpigotMaster-VersonWrapper-1_18_R2/pom.xml", 
+    "modified": false, 
+    "original_sha256": "955c409632f86fad7ced82c7691a0fd8996720c75a10502d4dbbb59da0065c89", 
+    "path": "META-INF/maven/com.neteasemc/SpigotMaster-VersonWrapper-1_18_R2/pom.xml", 
+    "stored_sha256": "955c409632f86fad7ced82c7691a0fd8996720c75a10502d4dbbb59da0065c89"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nimbusds/nimbus-jose-jwt/pom.properties", 
+    "modified": false, 
+    "original_sha256": "a4106ad356d8af1cf4dd40f1a84021fb2a77c28959df8eaa2529db4cfc72f37f", 
+    "path": "META-INF/maven/com.nimbusds/nimbus-jose-jwt/pom.properties", 
+    "stored_sha256": "a4106ad356d8af1cf4dd40f1a84021fb2a77c28959df8eaa2529db4cfc72f37f"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nimbusds/nimbus-jose-jwt/pom.xml", 
+    "modified": false, 
+    "original_sha256": "7b616da906fe306efa9e5247cc0ef589cbada33120fc0751ee9b8c803d5000f5", 
+    "path": "META-INF/maven/com.nimbusds/nimbus-jose-jwt/pom.xml", 
+    "stored_sha256": "7b616da906fe306efa9e5247cc0ef589cbada33120fc0751ee9b8c803d5000f5"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx/math/pom.properties", 
+    "modified": false, 
+    "original_sha256": "35edab579b89f4829db2176f5b2384412c2ee64037ab455d8689397b0f4ebbe7", 
+    "path": "META-INF/maven/com.nukkitx/math/pom.properties", 
+    "stored_sha256": "35edab579b89f4829db2176f5b2384412c2ee64037ab455d8689397b0f4ebbe7"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx/math/pom.xml", 
+    "modified": false, 
+    "original_sha256": "5f8d664f03d2fe5293e8a35a627adfd337b7f91a3ac5b9476e30ddcd84e82ac1", 
+    "path": "META-INF/maven/com.nukkitx/math/pom.xml", 
+    "stored_sha256": "5f8d664f03d2fe5293e8a35a627adfd337b7f91a3ac5b9476e30ddcd84e82ac1"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx/natives/pom.properties", 
+    "modified": false, 
+    "original_sha256": "eb20ce75a1ab14fdb17ab79b3eeecf8fd110cc79a5499e454c50aee5d7e94c34", 
+    "path": "META-INF/maven/com.nukkitx/natives/pom.properties", 
+    "stored_sha256": "eb20ce75a1ab14fdb17ab79b3eeecf8fd110cc79a5499e454c50aee5d7e94c34"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx/natives/pom.xml", 
+    "modified": false, 
+    "original_sha256": "e6d46ffbbd5eeb060790da8da061dd1f9f30542573785dee67c8364c0522592b", 
+    "path": "META-INF/maven/com.nukkitx/natives/pom.xml", 
+    "stored_sha256": "e6d46ffbbd5eeb060790da8da061dd1f9f30542573785dee67c8364c0522592b"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-common/pom.properties", 
+    "modified": false, 
+    "original_sha256": "bef53a2d97633a2437028b7b25ddfe3703449a0c0cb1649bfbf03011f063e14f", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-common/pom.properties", 
+    "stored_sha256": "bef53a2d97633a2437028b7b25ddfe3703449a0c0cb1649bfbf03011f063e14f"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-common/pom.xml", 
+    "modified": false, 
+    "original_sha256": "5abc36996aa201857cd11d4b9fff3d0fcf9aa879440412ac62e167af4686c523", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-common/pom.xml", 
+    "stored_sha256": "5abc36996aa201857cd11d4b9fff3d0fcf9aa879440412ac62e167af4686c523"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-int-common/pom.properties", 
+    "modified": false, 
+    "original_sha256": "6352ddebd91eff7a3c5beb0dc77c02963e7f0f7acdd1b15e31188f1ec83b5bca", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-int-common/pom.properties", 
+    "stored_sha256": "6352ddebd91eff7a3c5beb0dc77c02963e7f0f7acdd1b15e31188f1ec83b5bca"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-int-common/pom.xml", 
+    "modified": false, 
+    "original_sha256": "826fc4775e3e92792279d8541a40a18ac1a4e94e803e1b2afa0a50b134ccf157", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-int-common/pom.xml", 
+    "stored_sha256": "826fc4775e3e92792279d8541a40a18ac1a4e94e803e1b2afa0a50b134ccf157"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-int-int-maps/pom.properties", 
+    "modified": false, 
+    "original_sha256": "c19f10ca9b1e0da797bc565186272c6aa5b16e7ccd8cbed3e9a9704686c13170", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-int-int-maps/pom.properties", 
+    "stored_sha256": "c19f10ca9b1e0da797bc565186272c6aa5b16e7ccd8cbed3e9a9704686c13170"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-int-int-maps/pom.xml", 
+    "modified": false, 
+    "original_sha256": "3996bd12b099b7afca97028997aa6b38c081691f7f6a5dcfdf83efa65380e36c", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-int-int-maps/pom.xml", 
+    "stored_sha256": "3996bd12b099b7afca97028997aa6b38c081691f7f6a5dcfdf83efa65380e36c"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-int-object-maps/pom.properties", 
+    "modified": false, 
+    "original_sha256": "8837c8c060a4f338f2c5edce315e56c57b9e32af388118a52263c6b58dc3cad4", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-int-object-maps/pom.properties", 
+    "stored_sha256": "8837c8c060a4f338f2c5edce315e56c57b9e32af388118a52263c6b58dc3cad4"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-int-object-maps/pom.xml", 
+    "modified": false, 
+    "original_sha256": "b3d7194924df0c6c9ae697bce0662f9af4deb9fab543a0e307c07087ffc3407a", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-int-object-maps/pom.xml", 
+    "stored_sha256": "b3d7194924df0c6c9ae697bce0662f9af4deb9fab543a0e307c07087ffc3407a"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-int-sets/pom.properties", 
+    "modified": false, 
+    "original_sha256": "e2e65170e8e6e9376fd7142d23f79776e53e506ae1833d83b59185e85b5eaab9", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-int-sets/pom.properties", 
+    "stored_sha256": "e2e65170e8e6e9376fd7142d23f79776e53e506ae1833d83b59185e85b5eaab9"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-int-sets/pom.xml", 
+    "modified": false, 
+    "original_sha256": "d7dbb1a6fc1eb13576a8d17dacfcc832dfa51a21ad8d2f152299c914e60490c6", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-int-sets/pom.xml", 
+    "stored_sha256": "d7dbb1a6fc1eb13576a8d17dacfcc832dfa51a21ad8d2f152299c914e60490c6"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-long-common/pom.properties", 
+    "modified": false, 
+    "original_sha256": "2220518e163dda3a9f9a32fc4f0b04d787ec4b6cb967e26fea5274615ab16050", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-long-common/pom.properties", 
+    "stored_sha256": "2220518e163dda3a9f9a32fc4f0b04d787ec4b6cb967e26fea5274615ab16050"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-long-common/pom.xml", 
+    "modified": false, 
+    "original_sha256": "4272460d6a82a7a7125c56b60c3a37a74177c155ef47fde636070d69f9023f85", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-long-common/pom.xml", 
+    "stored_sha256": "4272460d6a82a7a7125c56b60c3a37a74177c155ef47fde636070d69f9023f85"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-long-object-maps/pom.properties", 
+    "modified": false, 
+    "original_sha256": "72caf24894ca1ea807352456023a417cf507844e14040810762896d6ce24d759", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-long-object-maps/pom.properties", 
+    "stored_sha256": "72caf24894ca1ea807352456023a417cf507844e14040810762896d6ce24d759"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-long-object-maps/pom.xml", 
+    "modified": false, 
+    "original_sha256": "71511d585928b21dbf5d68784f5314a191cec527b5853a72d4650ae74b33302a", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-long-object-maps/pom.xml", 
+    "stored_sha256": "71511d585928b21dbf5d68784f5314a191cec527b5853a72d4650ae74b33302a"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-long-sets/pom.properties", 
+    "modified": false, 
+    "original_sha256": "67abaa3f788fb203d918a74564a8a706d905dcfbed10d393209e43a84095b6dd", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-long-sets/pom.properties", 
+    "stored_sha256": "67abaa3f788fb203d918a74564a8a706d905dcfbed10d393209e43a84095b6dd"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-long-sets/pom.xml", 
+    "modified": false, 
+    "original_sha256": "0fbb50d5de9784fec46a677673a19b746a2a0637ee3ed8237917481c984c1e66", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-long-sets/pom.xml", 
+    "stored_sha256": "0fbb50d5de9784fec46a677673a19b746a2a0637ee3ed8237917481c984c1e66"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-object-common/pom.properties", 
+    "modified": false, 
+    "original_sha256": "6bef6669f14f26da3ff3b84bdd1d5a58fe1f587da7020c545695353a68ac54b8", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-object-common/pom.properties", 
+    "stored_sha256": "6bef6669f14f26da3ff3b84bdd1d5a58fe1f587da7020c545695353a68ac54b8"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-object-common/pom.xml", 
+    "modified": false, 
+    "original_sha256": "dcfa4b54ad34d34869de8de02af62c279bf1963b630b50ade374024c5568c77b", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-object-common/pom.xml", 
+    "stored_sha256": "dcfa4b54ad34d34869de8de02af62c279bf1963b630b50ade374024c5568c77b"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-object-int-maps/pom.properties", 
+    "modified": false, 
+    "original_sha256": "b1d5641c91691af9d1e935864809b937f2715a2aa0876a86a98141bce9394332", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-object-int-maps/pom.properties", 
+    "stored_sha256": "b1d5641c91691af9d1e935864809b937f2715a2aa0876a86a98141bce9394332"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-object-int-maps/pom.xml", 
+    "modified": false, 
+    "original_sha256": "b7409ec58891ea9b602359c9fedac60bece3a115da3c802c8fdefc01b9eb4350", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-object-int-maps/pom.xml", 
+    "stored_sha256": "b7409ec58891ea9b602359c9fedac60bece3a115da3c802c8fdefc01b9eb4350"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-object-sets/pom.properties", 
+    "modified": false, 
+    "original_sha256": "299eeb25d667bb5e3b2faba6cea5b7bbe22aa017746439cdb0f5cf7617eb3203", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-object-sets/pom.properties", 
+    "stored_sha256": "299eeb25d667bb5e3b2faba6cea5b7bbe22aa017746439cdb0f5cf7617eb3203"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.fastutil/fastutil-object-sets/pom.xml", 
+    "modified": false, 
+    "original_sha256": "d504844a504715d2701410ab48517fd1614bf02b74a43e2e48a47b8048669f44", 
+    "path": "META-INF/maven/com.nukkitx.fastutil/fastutil-object-sets/pom.xml", 
+    "stored_sha256": "d504844a504715d2701410ab48517fd1614bf02b74a43e2e48a47b8048669f44"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.network/common/pom.properties", 
+    "modified": false, 
+    "original_sha256": "96f92927cb5954f394e4e11500d2500d893e40d77ccebea26a2899e92f5b9a7a", 
+    "path": "META-INF/maven/com.nukkitx.network/common/pom.properties", 
+    "stored_sha256": "96f92927cb5954f394e4e11500d2500d893e40d77ccebea26a2899e92f5b9a7a"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.network/common/pom.xml", 
+    "modified": false, 
+    "original_sha256": "9fd4060214768b26a24387ecd26c0df38530c3f646a2865d4f534e532beae9e5", 
+    "path": "META-INF/maven/com.nukkitx.network/common/pom.xml", 
+    "stored_sha256": "9fd4060214768b26a24387ecd26c0df38530c3f646a2865d4f534e532beae9e5"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.network/raknet_netease/pom.properties", 
+    "modified": false, 
+    "original_sha256": "22feac1c3ea2402ad8dd74a8397ac9bc1240adb449df15d8adb76442df717c2e", 
+    "path": "META-INF/maven/com.nukkitx.network/raknet_netease/pom.properties", 
+    "stored_sha256": "22feac1c3ea2402ad8dd74a8397ac9bc1240adb449df15d8adb76442df717c2e"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.network/raknet_netease/pom.xml", 
+    "modified": false, 
+    "original_sha256": "dcd9c3d1110b030bd4ec7baf60c6cda00988e50220e97e129c7402407c5a1f2e", 
+    "path": "META-INF/maven/com.nukkitx.network/raknet_netease/pom.xml", 
+    "stored_sha256": "dcd9c3d1110b030bd4ec7baf60c6cda00988e50220e97e129c7402407c5a1f2e"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-common/pom.properties", 
+    "modified": false, 
+    "original_sha256": "95466b7985b163e7cd225bcec93bf678efaae4f4c02ae07bb08604ea843e7d0d", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-common/pom.properties", 
+    "stored_sha256": "95466b7985b163e7cd225bcec93bf678efaae4f4c02ae07bb08604ea843e7d0d"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-common/pom.xml", 
+    "modified": false, 
+    "original_sha256": "6fcd43a9e00f5e613a7b55c6f4784feb92bfba587a982ce9f8a73d26ed4c5efe", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-common/pom.xml", 
+    "stored_sha256": "6fcd43a9e00f5e613a7b55c6f4784feb92bfba587a982ce9f8a73d26ed4c5efe"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v291/pom.properties", 
+    "modified": false, 
+    "original_sha256": "03040d39a5f07405fc853a95cb0a14e18e49ef311e27cce2d1d9f88c4d850d63", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v291/pom.properties", 
+    "stored_sha256": "03040d39a5f07405fc853a95cb0a14e18e49ef311e27cce2d1d9f88c4d850d63"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v291/pom.xml", 
+    "modified": false, 
+    "original_sha256": "c16b84a30a5ce6943bdceaeed049b5724bea97aeeef18148ceb8d0e22544483b", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v291/pom.xml", 
+    "stored_sha256": "c16b84a30a5ce6943bdceaeed049b5724bea97aeeef18148ceb8d0e22544483b"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v313/pom.properties", 
+    "modified": false, 
+    "original_sha256": "4861e613517cc9037cebbd07cbf253b68085860d6d9dbbf20597dd263e23e63f", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v313/pom.properties", 
+    "stored_sha256": "4861e613517cc9037cebbd07cbf253b68085860d6d9dbbf20597dd263e23e63f"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v313/pom.xml", 
+    "modified": false, 
+    "original_sha256": "237950dbb40be10465756d293aeb73ce68721b1e52aeb7082241c4175a6fb9e2", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v313/pom.xml", 
+    "stored_sha256": "237950dbb40be10465756d293aeb73ce68721b1e52aeb7082241c4175a6fb9e2"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v332/pom.properties", 
+    "modified": false, 
+    "original_sha256": "cdf8ab3dc9d0ef43fbf49d0b345dbb5dcfa099aad241f2cc7e986427c03a6da8", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v332/pom.properties", 
+    "stored_sha256": "cdf8ab3dc9d0ef43fbf49d0b345dbb5dcfa099aad241f2cc7e986427c03a6da8"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v332/pom.xml", 
+    "modified": false, 
+    "original_sha256": "b44433247b8c90cd67b827a5535a478c9f7151d2762e4720e1a7794d965b67b0", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v332/pom.xml", 
+    "stored_sha256": "b44433247b8c90cd67b827a5535a478c9f7151d2762e4720e1a7794d965b67b0"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v340/pom.properties", 
+    "modified": false, 
+    "original_sha256": "3512cfa5dccd9fce09f6e97125ef91d3b2c47f0956dcfb7536d8f52d44a82902", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v340/pom.properties", 
+    "stored_sha256": "3512cfa5dccd9fce09f6e97125ef91d3b2c47f0956dcfb7536d8f52d44a82902"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v340/pom.xml", 
+    "modified": false, 
+    "original_sha256": "e6310631904b9ecaf427b79858144fa29ae1d459d8869b04cba46c7f33df4493", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v340/pom.xml", 
+    "stored_sha256": "e6310631904b9ecaf427b79858144fa29ae1d459d8869b04cba46c7f33df4493"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v354/pom.properties", 
+    "modified": false, 
+    "original_sha256": "f01bb7e5599e2cf963452816b64ebd162a12b89b3fe7956eb8b19de26c60dc95", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v354/pom.properties", 
+    "stored_sha256": "f01bb7e5599e2cf963452816b64ebd162a12b89b3fe7956eb8b19de26c60dc95"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v354/pom.xml", 
+    "modified": false, 
+    "original_sha256": "540dd2373f1dd5bc0b2c2b6cb97e0e28105149b28f3305b1b79bdd78f7d893f3", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v354/pom.xml", 
+    "stored_sha256": "540dd2373f1dd5bc0b2c2b6cb97e0e28105149b28f3305b1b79bdd78f7d893f3"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v361/pom.properties", 
+    "modified": false, 
+    "original_sha256": "551a73434641ce5b9d9204d676ba15c48b96a517ab2943d8b10e53d2b5ab8892", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v361/pom.properties", 
+    "stored_sha256": "551a73434641ce5b9d9204d676ba15c48b96a517ab2943d8b10e53d2b5ab8892"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v361/pom.xml", 
+    "modified": false, 
+    "original_sha256": "d25d1e452df0f4fc4f15cdd7204930180612c61f3411dcb03260503f45e1a9b1", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v361/pom.xml", 
+    "stored_sha256": "d25d1e452df0f4fc4f15cdd7204930180612c61f3411dcb03260503f45e1a9b1"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v388/pom.properties", 
+    "modified": false, 
+    "original_sha256": "45e528ff2f5e161db4244c0c93de342aff183c2729224809c5a8a6c18f88d4de", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v388/pom.properties", 
+    "stored_sha256": "45e528ff2f5e161db4244c0c93de342aff183c2729224809c5a8a6c18f88d4de"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v388/pom.xml", 
+    "modified": false, 
+    "original_sha256": "6fe075e09e4f1b2e96f120f7bfbc31822f7f5eae25dedd42e7913a2e3628659a", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v388/pom.xml", 
+    "stored_sha256": "6fe075e09e4f1b2e96f120f7bfbc31822f7f5eae25dedd42e7913a2e3628659a"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v389/pom.properties", 
+    "modified": false, 
+    "original_sha256": "a18c179c4c328c9a16880e7e30735808cfc9a403e956823cf2ea309f6b575b87", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v389/pom.properties", 
+    "stored_sha256": "a18c179c4c328c9a16880e7e30735808cfc9a403e956823cf2ea309f6b575b87"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v389/pom.xml", 
+    "modified": false, 
+    "original_sha256": "33371d6cbeb462b2b1a178b81ca140d108e549fcf7b923f826a06bc90d8cfd38", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v389/pom.xml", 
+    "stored_sha256": "33371d6cbeb462b2b1a178b81ca140d108e549fcf7b923f826a06bc90d8cfd38"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v390/pom.properties", 
+    "modified": false, 
+    "original_sha256": "94a6b194a019e06369fb0ac7c94e323d8f44dca8829a572047bcbc76396095eb", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v390/pom.properties", 
+    "stored_sha256": "94a6b194a019e06369fb0ac7c94e323d8f44dca8829a572047bcbc76396095eb"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v390/pom.xml", 
+    "modified": false, 
+    "original_sha256": "30d72726c7828023e1f063350d669a62a9a4aa916c3467f2d07eb59f953af254", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v390/pom.xml", 
+    "stored_sha256": "30d72726c7828023e1f063350d669a62a9a4aa916c3467f2d07eb59f953af254"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v407/pom.properties", 
+    "modified": false, 
+    "original_sha256": "affc40de3b908817b3139f33f18e4529f16af025ce3a7a8f7660cae3f25d211d", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v407/pom.properties", 
+    "stored_sha256": "affc40de3b908817b3139f33f18e4529f16af025ce3a7a8f7660cae3f25d211d"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v407/pom.xml", 
+    "modified": false, 
+    "original_sha256": "bd61dd441d18af8681b1b4c72ecbda15c85adb81f478c5b94269e925d1b40c70", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v407/pom.xml", 
+    "stored_sha256": "bd61dd441d18af8681b1b4c72ecbda15c85adb81f478c5b94269e925d1b40c70"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v408/pom.properties", 
+    "modified": false, 
+    "original_sha256": "a82bdb49cabe29e43430696024f111da001ccca1e17a87073c788a3a4ca670d9", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v408/pom.properties", 
+    "stored_sha256": "a82bdb49cabe29e43430696024f111da001ccca1e17a87073c788a3a4ca670d9"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v408/pom.xml", 
+    "modified": false, 
+    "original_sha256": "1d70e20c6608202e6025f2b9b7dc51f3ca237bd1d33cc8fc568e629df249c55b", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v408/pom.xml", 
+    "stored_sha256": "1d70e20c6608202e6025f2b9b7dc51f3ca237bd1d33cc8fc568e629df249c55b"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v419/pom.properties", 
+    "modified": false, 
+    "original_sha256": "4a491d0425d34f27e6a3740a67f1a9ab220db73326fb8e27c69f18f796fb983e", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v419/pom.properties", 
+    "stored_sha256": "4a491d0425d34f27e6a3740a67f1a9ab220db73326fb8e27c69f18f796fb983e"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v419/pom.xml", 
+    "modified": false, 
+    "original_sha256": "913dff1141f9f1fbf1a37ab65123ac7a507b17935ec3f7cf65800a1a100e909f", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v419/pom.xml", 
+    "stored_sha256": "913dff1141f9f1fbf1a37ab65123ac7a507b17935ec3f7cf65800a1a100e909f"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v422/pom.properties", 
+    "modified": false, 
+    "original_sha256": "7c1be7256ad7c9ce6ac615936dc512c6ea21600ee5eb62d800fc6f69631a4a98", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v422/pom.properties", 
+    "stored_sha256": "7c1be7256ad7c9ce6ac615936dc512c6ea21600ee5eb62d800fc6f69631a4a98"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v422/pom.xml", 
+    "modified": false, 
+    "original_sha256": "9fe0e1ab39149ae86d090660ae44f4b20c750b47eb54e0f6add377ff65681e64", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v422/pom.xml", 
+    "stored_sha256": "9fe0e1ab39149ae86d090660ae44f4b20c750b47eb54e0f6add377ff65681e64"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v428/pom.properties", 
+    "modified": false, 
+    "original_sha256": "8e00f2f710b65a89af9db6e2d275d00e08cbc6e0c291b4e93ca4d13411b79606", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v428/pom.properties", 
+    "stored_sha256": "8e00f2f710b65a89af9db6e2d275d00e08cbc6e0c291b4e93ca4d13411b79606"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v428/pom.xml", 
+    "modified": false, 
+    "original_sha256": "7ca54f040330fe92a93cd6898a4faa079dc688f37452892e52809bb11b4fd2d8", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v428/pom.xml", 
+    "stored_sha256": "7ca54f040330fe92a93cd6898a4faa079dc688f37452892e52809bb11b4fd2d8"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v431/pom.properties", 
+    "modified": false, 
+    "original_sha256": "abb476c6c5294b55aedc69112552956c47ccd5c00f8ac921542623c183b28333", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v431/pom.properties", 
+    "stored_sha256": "abb476c6c5294b55aedc69112552956c47ccd5c00f8ac921542623c183b28333"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v431/pom.xml", 
+    "modified": false, 
+    "original_sha256": "523be273a580e35956d08be3a1e06fc8e94cd5c3a8758d384eb7d953424fc0d4", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v431/pom.xml", 
+    "stored_sha256": "523be273a580e35956d08be3a1e06fc8e94cd5c3a8758d384eb7d953424fc0d4"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v440/pom.properties", 
+    "modified": false, 
+    "original_sha256": "3069c0343d1e6ef2a521009e2578c749cd1135928729568ab4d67eee2f374ba2", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v440/pom.properties", 
+    "stored_sha256": "3069c0343d1e6ef2a521009e2578c749cd1135928729568ab4d67eee2f374ba2"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v440/pom.xml", 
+    "modified": false, 
+    "original_sha256": "d888f10fa12422f0d522ca09e0649c054fe1e9ed31cda1ad912b9d5a407b54c1", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v440/pom.xml", 
+    "stored_sha256": "d888f10fa12422f0d522ca09e0649c054fe1e9ed31cda1ad912b9d5a407b54c1"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v448/pom.properties", 
+    "modified": false, 
+    "original_sha256": "96c15bc0155d2a18d7960e7797bae8ed8226708885afd9d2a0ad7bf3fb92c3c3", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v448/pom.properties", 
+    "stored_sha256": "96c15bc0155d2a18d7960e7797bae8ed8226708885afd9d2a0ad7bf3fb92c3c3"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v448/pom.xml", 
+    "modified": false, 
+    "original_sha256": "5548b4e71210d55defd5f2843abe84fcdf8b172e27f9d60380ad1a8004c15c6b", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v448/pom.xml", 
+    "stored_sha256": "5548b4e71210d55defd5f2843abe84fcdf8b172e27f9d60380ad1a8004c15c6b"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v465/pom.properties", 
+    "modified": false, 
+    "original_sha256": "2319edb0253c15f5353f6429930d6f606c3495a5fdc13dede7c480af3b89fb74", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v465/pom.properties", 
+    "stored_sha256": "2319edb0253c15f5353f6429930d6f606c3495a5fdc13dede7c480af3b89fb74"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v465/pom.xml", 
+    "modified": false, 
+    "original_sha256": "5c8a027560fcf45673457b6caa0d050e551a7cbd348d1d63cc59910d5eb566f0", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v465/pom.xml", 
+    "stored_sha256": "5c8a027560fcf45673457b6caa0d050e551a7cbd348d1d63cc59910d5eb566f0"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v471/pom.properties", 
+    "modified": false, 
+    "original_sha256": "78814a0ed071d89adec4917f00a19b3aa8952c013dd191b0c9014de0f8c5cbd0", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v471/pom.properties", 
+    "stored_sha256": "78814a0ed071d89adec4917f00a19b3aa8952c013dd191b0c9014de0f8c5cbd0"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v471/pom.xml", 
+    "modified": false, 
+    "original_sha256": "7bd2d3276f615b0829eff94325bd37926e3cc6b95d7abcafa01ee7ba87c41e47", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v471/pom.xml", 
+    "stored_sha256": "7bd2d3276f615b0829eff94325bd37926e3cc6b95d7abcafa01ee7ba87c41e47"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v475/pom.properties", 
+    "modified": false, 
+    "original_sha256": "38a105c33a9b74a6c2938493ce3a116b4d5dbf9fb8a783d888532b737e37f303", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v475/pom.properties", 
+    "stored_sha256": "38a105c33a9b74a6c2938493ce3a116b4d5dbf9fb8a783d888532b737e37f303"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v475/pom.xml", 
+    "modified": false, 
+    "original_sha256": "65e0d085c847213bd60d24662d4dd1103aa27f11bb55dbff415c76cad6fce0e9", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v475/pom.xml", 
+    "stored_sha256": "65e0d085c847213bd60d24662d4dd1103aa27f11bb55dbff415c76cad6fce0e9"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v486/pom.properties", 
+    "modified": false, 
+    "original_sha256": "97da66611ca17dd708ade90f01ac31f08ee1310031cf56949390ebe66cf17d1d", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v486/pom.properties", 
+    "stored_sha256": "97da66611ca17dd708ade90f01ac31f08ee1310031cf56949390ebe66cf17d1d"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v486/pom.xml", 
+    "modified": false, 
+    "original_sha256": "7234f26812ca99b3266d00be45528b861be8363dc269ced573710d70c509ef4a", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v486/pom.xml", 
+    "stored_sha256": "7234f26812ca99b3266d00be45528b861be8363dc269ced573710d70c509ef4a"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v503/pom.properties", 
+    "modified": false, 
+    "original_sha256": "f673053a353d5ccdcd523678536dc2c65bd7c1ecd638e22eb304921668fdb625", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v503/pom.properties", 
+    "stored_sha256": "f673053a353d5ccdcd523678536dc2c65bd7c1ecd638e22eb304921668fdb625"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/bedrock-v503/pom.xml", 
+    "modified": false, 
+    "original_sha256": "a3a47ffde4ac4dc52dae2493a9458b15515b0028ec2d148a4ad6f6fc8ac9bd01", 
+    "path": "META-INF/maven/com.nukkitx.protocol/bedrock-v503/pom.xml", 
+    "stored_sha256": "a3a47ffde4ac4dc52dae2493a9458b15515b0028ec2d148a4ad6f6fc8ac9bd01"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/common/pom.properties", 
+    "modified": false, 
+    "original_sha256": "1734da654af0d201fe57f41dee627044f375517bb4adf9b0fd0ebe7b696e0000", 
+    "path": "META-INF/maven/com.nukkitx.protocol/common/pom.properties", 
+    "stored_sha256": "1734da654af0d201fe57f41dee627044f375517bb4adf9b0fd0ebe7b696e0000"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/com.nukkitx.protocol/common/pom.xml", 
+    "modified": false, 
+    "original_sha256": "1ef58c64fc01cfdd4163adde8d2587bbb3c4e87c1513a95d4c1bfcadbaa2652f", 
+    "path": "META-INF/maven/com.nukkitx.protocol/common/pom.xml", 
+    "stored_sha256": "1ef58c64fc01cfdd4163adde8d2587bbb3c4e87c1513a95d4c1bfcadbaa2652f"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/commons-codec/commons-codec/pom.properties", 
+    "modified": false, 
+    "original_sha256": "d71b471827ff561706c19808a3330183efbe0f4710f81569fe4fcd8bb009b0f8", 
+    "path": "META-INF/maven/commons-codec/commons-codec/pom.properties", 
+    "stored_sha256": "d71b471827ff561706c19808a3330183efbe0f4710f81569fe4fcd8bb009b0f8"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/commons-codec/commons-codec/pom.xml", 
+    "modified": false, 
+    "original_sha256": "bdb8db7012d112a6e3ea8fdb7c510b300d99eff0819d27dddba9c43397ea4cfb", 
+    "path": "META-INF/maven/commons-codec/commons-codec/pom.xml", 
+    "stored_sha256": "bdb8db7012d112a6e3ea8fdb7c510b300d99eff0819d27dddba9c43397ea4cfb"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/commons-logging/commons-logging/pom.properties", 
+    "modified": false, 
+    "original_sha256": "be642bbccd99f68e5719cf264ddf5c6f8ee7597d85ebcb03a8697baaa3e6c262", 
+    "path": "META-INF/maven/commons-logging/commons-logging/pom.properties", 
+    "stored_sha256": "be642bbccd99f68e5719cf264ddf5c6f8ee7597d85ebcb03a8697baaa3e6c262"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/commons-logging/commons-logging/pom.xml", 
+    "modified": false, 
+    "original_sha256": "c91ab5aa570d86f6fd07cc158ec6bc2c50080402972ee9179fe24100739fbb20", 
+    "path": "META-INF/maven/commons-logging/commons-logging/pom.xml", 
+    "stored_sha256": "c91ab5aa570d86f6fd07cc158ec6bc2c50080402972ee9179fe24100739fbb20"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/io.airlift/aircompressor/pom.properties", 
+    "modified": false, 
+    "original_sha256": "8c6f90c3ad377b5396c3e95061d9fb0e1cd95ebbb413310fefdf1765f8b83ef2", 
+    "path": "META-INF/maven/io.airlift/aircompressor/pom.properties", 
+    "stored_sha256": "8c6f90c3ad377b5396c3e95061d9fb0e1cd95ebbb413310fefdf1765f8b83ef2"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/io.airlift/aircompressor/pom.xml", 
+    "modified": false, 
+    "original_sha256": "cd8cc83d3696d3ae6a344773c1fe9596af55efed70fd59f3563c42c8795335dc", 
+    "path": "META-INF/maven/io.airlift/aircompressor/pom.xml", 
+    "stored_sha256": "cd8cc83d3696d3ae6a344773c1fe9596af55efed70fd59f3563c42c8795335dc"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/io.netty/netty-buffer/pom.properties", 
+    "modified": false, 
+    "original_sha256": "07478eda1a9835488aefb1f01abee6aa13dfae3ed0f34c684f7bc868b65c9599", 
+    "path": "META-INF/maven/io.netty/netty-buffer/pom.properties", 
+    "stored_sha256": "07478eda1a9835488aefb1f01abee6aa13dfae3ed0f34c684f7bc868b65c9599"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/io.netty/netty-buffer/pom.xml", 
+    "modified": false, 
+    "original_sha256": "186d37a251613e5005b0e18d7212bd2fda9f64ad887a91263301541879bc8f0c", 
+    "path": "META-INF/maven/io.netty/netty-buffer/pom.xml", 
+    "stored_sha256": "186d37a251613e5005b0e18d7212bd2fda9f64ad887a91263301541879bc8f0c"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/io.netty/netty-codec/pom.properties", 
+    "modified": false, 
+    "original_sha256": "19bae9527cd56073f2ba66da0145331663a81d4b69957893b071fae138bd6ccb", 
+    "path": "META-INF/maven/io.netty/netty-codec/pom.properties", 
+    "stored_sha256": "19bae9527cd56073f2ba66da0145331663a81d4b69957893b071fae138bd6ccb"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/io.netty/netty-codec/pom.xml", 
+    "modified": false, 
+    "original_sha256": "8316dd3e34e46a621c646fd5ecd88e2f6b52be7464489e2df8cd35f114a20867", 
+    "path": "META-INF/maven/io.netty/netty-codec/pom.xml", 
+    "stored_sha256": "8316dd3e34e46a621c646fd5ecd88e2f6b52be7464489e2df8cd35f114a20867"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/io.netty/netty-common/pom.properties", 
+    "modified": false, 
+    "original_sha256": "2477b52a71603e9e14805dba8623aa4a165d9c1380c49a99095d19e6cc2bdd88", 
+    "path": "META-INF/maven/io.netty/netty-common/pom.properties", 
+    "stored_sha256": "2477b52a71603e9e14805dba8623aa4a165d9c1380c49a99095d19e6cc2bdd88"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/io.netty/netty-common/pom.xml", 
+    "modified": false, 
+    "original_sha256": "e3719e037cf627d6bdfbdaf4544fef6985b720c718940339ac85f90947d252ce", 
+    "path": "META-INF/maven/io.netty/netty-common/pom.xml", 
+    "stored_sha256": "e3719e037cf627d6bdfbdaf4544fef6985b720c718940339ac85f90947d252ce"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/io.netty/netty-resolver/pom.properties", 
+    "modified": false, 
+    "original_sha256": "98cf09fc6fec2b218e231ffce0e2b5050355b92966ace75d40df0aab4b1c2387", 
+    "path": "META-INF/maven/io.netty/netty-resolver/pom.properties", 
+    "stored_sha256": "98cf09fc6fec2b218e231ffce0e2b5050355b92966ace75d40df0aab4b1c2387"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/io.netty/netty-resolver/pom.xml", 
+    "modified": false, 
+    "original_sha256": "fb66731d7524a33aaa374661e3fa3b272788c02131335e964de70a263994c319", 
+    "path": "META-INF/maven/io.netty/netty-resolver/pom.xml", 
+    "stored_sha256": "fb66731d7524a33aaa374661e3fa3b272788c02131335e964de70a263994c319"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/io.netty/netty-transport/pom.properties", 
+    "modified": false, 
+    "original_sha256": "607f3fc8e8e47f7fdf3612a6d605b9f1e5fcbf4aed8d1bd15ec9b89ef6f890bf", 
+    "path": "META-INF/maven/io.netty/netty-transport/pom.properties", 
+    "stored_sha256": "607f3fc8e8e47f7fdf3612a6d605b9f1e5fcbf4aed8d1bd15ec9b89ef6f890bf"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/io.netty/netty-transport/pom.xml", 
+    "modified": false, 
+    "original_sha256": "0ae6788223308d9aa768678d7503f9f527c00434fcbbc46249db3f157ef54156", 
+    "path": "META-INF/maven/io.netty/netty-transport/pom.xml", 
+    "stored_sha256": "0ae6788223308d9aa768678d7503f9f527c00434fcbbc46249db3f157ef54156"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/net.jodah/expiringmap/pom.properties", 
+    "modified": false, 
+    "original_sha256": "035b73a198645cef010cd777cdf91ace4b4f6732f9f64530ede6abb8a5b071a7", 
+    "path": "META-INF/maven/net.jodah/expiringmap/pom.properties", 
+    "stored_sha256": "035b73a198645cef010cd777cdf91ace4b4f6732f9f64530ede6abb8a5b071a7"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/net.jodah/expiringmap/pom.xml", 
+    "modified": false, 
+    "original_sha256": "3aebb47f61f26485dba84bbc8d1b4c8ff2b5467e3c10230170b6ce6315ab1834", 
+    "path": "META-INF/maven/net.jodah/expiringmap/pom.xml", 
+    "stored_sha256": "3aebb47f61f26485dba84bbc8d1b4c8ff2b5467e3c10230170b6ce6315ab1834"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/net.minidev/accessors-smart/pom.properties", 
+    "modified": false, 
+    "original_sha256": "d28e937b4842e5d53587ec5856aeb59b3bc23764ebbd26a60e9d657d44b95954", 
+    "path": "META-INF/maven/net.minidev/accessors-smart/pom.properties", 
+    "stored_sha256": "d28e937b4842e5d53587ec5856aeb59b3bc23764ebbd26a60e9d657d44b95954"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/net.minidev/accessors-smart/pom.xml", 
+    "modified": false, 
+    "original_sha256": "58dbf2d3b1944f4adb492bd05d258cd0e556eabff9a14dea9d4101a34e0582e0", 
+    "path": "META-INF/maven/net.minidev/accessors-smart/pom.xml", 
+    "stored_sha256": "58dbf2d3b1944f4adb492bd05d258cd0e556eabff9a14dea9d4101a34e0582e0"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/net.minidev/json-smart/pom.properties", 
+    "modified": false, 
+    "original_sha256": "a15cc982717c418206b30cd85daddddbaad21f9c12264aa33efedebcabdad163", 
+    "path": "META-INF/maven/net.minidev/json-smart/pom.properties", 
+    "stored_sha256": "a15cc982717c418206b30cd85daddddbaad21f9c12264aa33efedebcabdad163"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/net.minidev/json-smart/pom.xml", 
+    "modified": false, 
+    "original_sha256": "e9015c732768297251c41ef8c0c9c3d471ac95097688098a954c75f1e2303eb2", 
+    "path": "META-INF/maven/net.minidev/json-smart/pom.xml", 
+    "stored_sha256": "e9015c732768297251c41ef8c0c9c3d471ac95097688098a954c75f1e2303eb2"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.apache.httpcomponents/httpasyncclient/pom.properties", 
+    "modified": false, 
+    "original_sha256": "accbb171615cb0d758d67ab8d91961e8e333d6145b030de5839cd67e36663650", 
+    "path": "META-INF/maven/org.apache.httpcomponents/httpasyncclient/pom.properties", 
+    "stored_sha256": "accbb171615cb0d758d67ab8d91961e8e333d6145b030de5839cd67e36663650"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.apache.httpcomponents/httpasyncclient/pom.xml", 
+    "modified": false, 
+    "original_sha256": "34f24ef986b89d51b80a090387aa3d0c824d40f087ae5ccfad47ff3c262c2e47", 
+    "path": "META-INF/maven/org.apache.httpcomponents/httpasyncclient/pom.xml", 
+    "stored_sha256": "34f24ef986b89d51b80a090387aa3d0c824d40f087ae5ccfad47ff3c262c2e47"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.apache.httpcomponents/httpclient/pom.properties", 
+    "modified": false, 
+    "original_sha256": "dc21c0d960447afc13e1939683118c9a9af19ea96ceb9043b1ce52da079d387b", 
+    "path": "META-INF/maven/org.apache.httpcomponents/httpclient/pom.properties", 
+    "stored_sha256": "dc21c0d960447afc13e1939683118c9a9af19ea96ceb9043b1ce52da079d387b"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.apache.httpcomponents/httpclient/pom.xml", 
+    "modified": false, 
+    "original_sha256": "7efc1241e73e7fbb268bfd33242d11ebd3ca07061d7d85f2962dc32a0f0b8855", 
+    "path": "META-INF/maven/org.apache.httpcomponents/httpclient/pom.xml", 
+    "stored_sha256": "7efc1241e73e7fbb268bfd33242d11ebd3ca07061d7d85f2962dc32a0f0b8855"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.apache.httpcomponents/httpcore/pom.properties", 
+    "modified": false, 
+    "original_sha256": "1cf5c0d619584542f7f68b0ccbb0a70f875ab4c2b0b8fadb880a2406ac9ec8b2", 
+    "path": "META-INF/maven/org.apache.httpcomponents/httpcore/pom.properties", 
+    "stored_sha256": "1cf5c0d619584542f7f68b0ccbb0a70f875ab4c2b0b8fadb880a2406ac9ec8b2"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.apache.httpcomponents/httpcore/pom.xml", 
+    "modified": false, 
+    "original_sha256": "c5c12066df2b3b88a89a2c8602b81ea9a61627e976e5129eea1899ebbaea392b", 
+    "path": "META-INF/maven/org.apache.httpcomponents/httpcore/pom.xml", 
+    "stored_sha256": "c5c12066df2b3b88a89a2c8602b81ea9a61627e976e5129eea1899ebbaea392b"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.apache.httpcomponents/httpcore-nio/pom.properties", 
+    "modified": false, 
+    "original_sha256": "f6d4eadfad4a8d484baed836b9b09b8c4ddc04853a09ee41424d254a8b5712cb", 
+    "path": "META-INF/maven/org.apache.httpcomponents/httpcore-nio/pom.properties", 
+    "stored_sha256": "f6d4eadfad4a8d484baed836b9b09b8c4ddc04853a09ee41424d254a8b5712cb"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.apache.httpcomponents/httpcore-nio/pom.xml", 
+    "modified": false, 
+    "original_sha256": "a4c995b738d104b75cc8b1164db600533156c047eccb4c8ee5d927b21a17ec73", 
+    "path": "META-INF/maven/org.apache.httpcomponents/httpcore-nio/pom.xml", 
+    "stored_sha256": "a4c995b738d104b75cc8b1164db600533156c047eccb4c8ee5d927b21a17ec73"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.bitbucket.b_c/jose4j/pom.properties", 
+    "modified": false, 
+    "original_sha256": "ad837154b9528172f27e0b32a84ff80b34d634a8f2af961a590ff26543de9843", 
+    "path": "META-INF/maven/org.bitbucket.b_c/jose4j/pom.properties", 
+    "stored_sha256": "ad837154b9528172f27e0b32a84ff80b34d634a8f2af961a590ff26543de9843"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.bitbucket.b_c/jose4j/pom.xml", 
+    "modified": false, 
+    "original_sha256": "b579ab836863ad48e578bae9961e1b004bd140afc43e7c3335646b7fb3daf9da", 
+    "path": "META-INF/maven/org.bitbucket.b_c/jose4j/pom.xml", 
+    "stored_sha256": "b579ab836863ad48e578bae9961e1b004bd140afc43e7c3335646b7fb3daf9da"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.cloudburstmc.math/api/pom.properties", 
+    "modified": false, 
+    "original_sha256": "6e332851204181814980c8a9de39250c1723407e8b4426de949d48c943c4ad70", 
+    "path": "META-INF/maven/org.cloudburstmc.math/api/pom.properties", 
+    "stored_sha256": "6e332851204181814980c8a9de39250c1723407e8b4426de949d48c943c4ad70"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.cloudburstmc.math/api/pom.xml", 
+    "modified": false, 
+    "original_sha256": "41ae7a51306a7f222ee224c17c062ba335d7dc4b1232df4aa388bbe14893dc40", 
+    "path": "META-INF/maven/org.cloudburstmc.math/api/pom.xml", 
+    "stored_sha256": "41ae7a51306a7f222ee224c17c062ba335d7dc4b1232df4aa388bbe14893dc40"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.cloudburstmc.math/immutable/pom.properties", 
+    "modified": false, 
+    "original_sha256": "6fe91b2b22555601258eada96eacec87eb750ca38cb9ce36eecafe44c47289f8", 
+    "path": "META-INF/maven/org.cloudburstmc.math/immutable/pom.properties", 
+    "stored_sha256": "6fe91b2b22555601258eada96eacec87eb750ca38cb9ce36eecafe44c47289f8"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.cloudburstmc.math/immutable/pom.xml", 
+    "modified": false, 
+    "original_sha256": "48c79e3708794b691158223333795e09141c7ce9913e212b2a35d238573376b9", 
+    "path": "META-INF/maven/org.cloudburstmc.math/immutable/pom.xml", 
+    "stored_sha256": "48c79e3708794b691158223333795e09141c7ce9913e212b2a35d238573376b9"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.geysermc.cumulus/cumulus/pom.properties", 
+    "modified": false, 
+    "original_sha256": "7328ec860ecfe3c989d8cf7de975f9084a6fb97eb575c9d1c0ca3e1f4f3ea6f2", 
+    "path": "META-INF/maven/org.geysermc.cumulus/cumulus/pom.properties", 
+    "stored_sha256": "7328ec860ecfe3c989d8cf7de975f9084a6fb97eb575c9d1c0ca3e1f4f3ea6f2"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.geysermc.cumulus/cumulus/pom.xml", 
+    "modified": false, 
+    "original_sha256": "79548419825ccb2e7dac1c7c347d8dcbccb19aa1166a7983f50024e9a9f038c0", 
+    "path": "META-INF/maven/org.geysermc.cumulus/cumulus/pom.xml", 
+    "stored_sha256": "79548419825ccb2e7dac1c7c347d8dcbccb19aa1166a7983f50024e9a9f038c0"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.jctools/jctools-core/pom.properties", 
+    "modified": false, 
+    "original_sha256": "bb37fd1b6d070a9a63476a244331539f468a3411d0f44f433bedd4f5dd40367b", 
+    "path": "META-INF/maven/org.jctools/jctools-core/pom.properties", 
+    "stored_sha256": "bb37fd1b6d070a9a63476a244331539f468a3411d0f44f433bedd4f5dd40367b"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.jctools/jctools-core/pom.xml", 
+    "modified": false, 
+    "original_sha256": "acaf1b4c366f6794a734288a2c003f16af90a9c479cf4d7daade689764e4fb47", 
+    "path": "META-INF/maven/org.jctools/jctools-core/pom.xml", 
+    "stored_sha256": "acaf1b4c366f6794a734288a2c003f16af90a9c479cf4d7daade689764e4fb47"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.slf4j/slf4j-api/pom.properties", 
+    "modified": false, 
+    "original_sha256": "9d85213fb3780662d598bfc2f90e2edca56103da6bb7a0d61f14befae076ac15", 
+    "path": "META-INF/maven/org.slf4j/slf4j-api/pom.properties", 
+    "stored_sha256": "9d85213fb3780662d598bfc2f90e2edca56103da6bb7a0d61f14befae076ac15"
+  }, 
+  {
+    "destination": "provenance/jar-metadata/META-INF/maven/org.slf4j/slf4j-api/pom.xml", 
+    "modified": false, 
+    "original_sha256": "5f2bdf26ffa2dae84af2c9df8438532a6c703a5e9f7f998e9b1cd600fdd54fdc", 
+    "path": "META-INF/maven/org.slf4j/slf4j-api/pom.xml", 
+    "stored_sha256": "5f2bdf26ffa2dae84af2c9df8438532a6c703a5e9f7f998e9b1cd600fdd54fdc"
+  }, 
+  {
+    "destination": "src/main/resources/META-INF/native-image/io.netty/netty-buffer/native-image.properties", 
+    "modified": false, 
+    "original_sha256": "26db0a23913a0e61b5a33fabc92a21826abfd1ec04fb2010f54b5de0f10708e3", 
+    "path": "META-INF/native-image/io.netty/netty-buffer/native-image.properties", 
+    "stored_sha256": "26db0a23913a0e61b5a33fabc92a21826abfd1ec04fb2010f54b5de0f10708e3"
+  }, 
+  {
+    "destination": "src/main/resources/META-INF/native-image/io.netty/netty-codec/generated/handlers/reflect-config.json", 
+    "modified": false, 
+    "original_sha256": "5a8bcb3d98ed2b4679fb35986e88389176a33c0ebecfddda62a4c8df02460ce3", 
+    "path": "META-INF/native-image/io.netty/netty-codec/generated/handlers/reflect-config.json", 
+    "stored_sha256": "5a8bcb3d98ed2b4679fb35986e88389176a33c0ebecfddda62a4c8df02460ce3"
+  }, 
+  {
+    "destination": "src/main/resources/META-INF/native-image/io.netty/netty-codec/native-image.properties", 
+    "modified": false, 
+    "original_sha256": "e366d684d7d376a038bb70fd7a3bcccecb9ebf7d62f1cfe518e473a74d8829f9", 
+    "path": "META-INF/native-image/io.netty/netty-codec/native-image.properties", 
+    "stored_sha256": "e366d684d7d376a038bb70fd7a3bcccecb9ebf7d62f1cfe518e473a74d8829f9"
+  }, 
+  {
+    "destination": "src/main/resources/META-INF/native-image/io.netty/netty-common/native-image.properties", 
+    "modified": false, 
+    "original_sha256": "ece54b4d9c117474e9faecb6ffef1f02c6094e020d95c1c3158f22aadf40ba84", 
+    "path": "META-INF/native-image/io.netty/netty-common/native-image.properties", 
+    "stored_sha256": "ece54b4d9c117474e9faecb6ffef1f02c6094e020d95c1c3158f22aadf40ba84"
+  }, 
+  {
+    "destination": "src/main/resources/META-INF/native-image/io.netty/netty-transport/generated/handlers/reflect-config.json", 
+    "modified": false, 
+    "original_sha256": "ddf81b09fa019b363266c428b5dca02d2323dc9277b09e90f2bafa7fe4a43373", 
+    "path": "META-INF/native-image/io.netty/netty-transport/generated/handlers/reflect-config.json", 
+    "stored_sha256": "ddf81b09fa019b363266c428b5dca02d2323dc9277b09e90f2bafa7fe4a43373"
+  }, 
+  {
+    "destination": "src/main/resources/META-INF/native-image/io.netty/netty-transport/native-image.properties", 
+    "modified": false, 
+    "original_sha256": "1a097898916af2d29f9d8eb2e53b5c98c811bafbd68df1081a6fd2122b9d2fec", 
+    "path": "META-INF/native-image/io.netty/netty-transport/native-image.properties", 
+    "stored_sha256": "1a097898916af2d29f9d8eb2e53b5c98c811bafbd68df1081a6fd2122b9d2fec"
+  }, 
+  {
+    "destination": "src/main/resources/META-INF/native-image/io.netty/netty-transport/reflection-config.json", 
+    "modified": false, 
+    "original_sha256": "951b89511cd7e1ab3fa2f06e790a7683b0293e38bbc15e8ae067141415749dcc", 
+    "path": "META-INF/native-image/io.netty/netty-transport/reflection-config.json", 
+    "stored_sha256": "951b89511cd7e1ab3fa2f06e790a7683b0293e38bbc15e8ae067141415749dcc"
+  }, 
+  {
+    "destination": "src/main/resources/META-INF/NOTICE", 
+    "modified": false, 
+    "original_sha256": "93583b866c654780f7b3ef7729730bef41c60f293730855d224720a017cf25ff", 
+    "path": "META-INF/NOTICE", 
+    "stored_sha256": "93583b866c654780f7b3ef7729730bef41c60f293730855d224720a017cf25ff"
+  }, 
+  {
+    "destination": "src/main/resources/META-INF/NOTICE.txt", 
+    "modified": false, 
+    "original_sha256": "bcb83645cb4d1a46e551f21a53477b3f8b7518471480e1b6afe04a5f9fc3af80", 
+    "path": "META-INF/NOTICE.txt", 
+    "stored_sha256": "bcb83645cb4d1a46e551f21a53477b3f8b7518471480e1b6afe04a5f9fc3af80"
+  }, 
+  {
+    "destination": "src/main/resources/META-INF/services/org.cloudburstmc.math.imaginary.ImaginaryProvider", 
+    "modified": false, 
+    "original_sha256": "d980ffd87be9615cfcb7528e2d3cbf0b5cf22dd573e9ba65d40fd515d3283fb4", 
+    "path": "META-INF/services/org.cloudburstmc.math.imaginary.ImaginaryProvider", 
+    "stored_sha256": "d980ffd87be9615cfcb7528e2d3cbf0b5cf22dd573e9ba65d40fd515d3283fb4"
+  }, 
+  {
+    "destination": "src/main/resources/META-INF/services/org.cloudburstmc.math.vector.VectorProvider", 
+    "modified": false, 
+    "original_sha256": "85be8be84f935f0ae8c69b46b1299b15d00a99d48d19b3a53bd116fffeb208a7", 
+    "path": "META-INF/services/org.cloudburstmc.math.vector.VectorProvider", 
+    "stored_sha256": "85be8be84f935f0ae8c69b46b1299b15d00a99d48d19b3a53bd116fffeb208a7"
+  }, 
+  {
+    "destination": "src/main/resources/META-INF/services/reactor.blockhound.integration.BlockHoundIntegration", 
+    "modified": false, 
+    "original_sha256": "6c62350b26f842a0d55c3bf2a81873d0ba8f643872c7b0e68e620c36df9ed36c", 
+    "path": "META-INF/services/reactor.blockhound.integration.BlockHoundIntegration", 
+    "stored_sha256": "6c62350b26f842a0d55c3bf2a81873d0ba8f643872c7b0e68e620c36df9ed36c"
+  }, 
+  {
+    "destination": "src/main/resources/mozilla/public-suffix-list.txt", 
+    "modified": false, 
+    "original_sha256": "c370f2e9374e3a5b6854d8069b3077be79a3bd82d672c9445a4e4db598e20bd3", 
+    "path": "mozilla/public-suffix-list.txt", 
+    "stored_sha256": "c370f2e9374e3a5b6854d8069b3077be79a3bd82d672c9445a4e4db598e20bd3"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_approx_any.txt", 
+    "modified": false, 
+    "original_sha256": "ad6c75e0e50b51f807d73a3d3ef46a6f666a891cb4953cc357a5d305e61e30ab", 
+    "path": "org/apache/commons/codec/language/bm/ash_approx_any.txt", 
+    "stored_sha256": "ad6c75e0e50b51f807d73a3d3ef46a6f666a891cb4953cc357a5d305e61e30ab"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_approx_common.txt", 
+    "modified": false, 
+    "original_sha256": "da5b7febc70f860f91bcccca37c29a619a23442cc80b9cd98ad884e16d6c9854", 
+    "path": "org/apache/commons/codec/language/bm/ash_approx_common.txt", 
+    "stored_sha256": "da5b7febc70f860f91bcccca37c29a619a23442cc80b9cd98ad884e16d6c9854"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_approx_cyrillic.txt", 
+    "modified": false, 
+    "original_sha256": "a29917ea4c00bdd216db31d36205ef3829d0fb76926d189fcd8260d3700d4c57", 
+    "path": "org/apache/commons/codec/language/bm/ash_approx_cyrillic.txt", 
+    "stored_sha256": "a29917ea4c00bdd216db31d36205ef3829d0fb76926d189fcd8260d3700d4c57"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_approx_english.txt", 
+    "modified": false, 
+    "original_sha256": "53739bd27868292338606ef7a1fd209b6253d35e94d7a4afb031769498d60d64", 
+    "path": "org/apache/commons/codec/language/bm/ash_approx_english.txt", 
+    "stored_sha256": "53739bd27868292338606ef7a1fd209b6253d35e94d7a4afb031769498d60d64"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_approx_french.txt", 
+    "modified": false, 
+    "original_sha256": "19650e4ab69678bb849028900e4c2e867f75229c4447a0fcbf5a5bd6b3bd69c3", 
+    "path": "org/apache/commons/codec/language/bm/ash_approx_french.txt", 
+    "stored_sha256": "19650e4ab69678bb849028900e4c2e867f75229c4447a0fcbf5a5bd6b3bd69c3"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_approx_german.txt", 
+    "modified": false, 
+    "original_sha256": "cfc7c1ef41209af89b676ba46a183060b93dedcab1e7d730f6253f48f5af0ea9", 
+    "path": "org/apache/commons/codec/language/bm/ash_approx_german.txt", 
+    "stored_sha256": "cfc7c1ef41209af89b676ba46a183060b93dedcab1e7d730f6253f48f5af0ea9"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_approx_hebrew.txt", 
+    "modified": false, 
+    "original_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b", 
+    "path": "org/apache/commons/codec/language/bm/ash_approx_hebrew.txt", 
+    "stored_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_approx_hungarian.txt", 
+    "modified": false, 
+    "original_sha256": "6bd249910726949afa4e5a9623ec3999151c3ef43843714a90003cfb11350309", 
+    "path": "org/apache/commons/codec/language/bm/ash_approx_hungarian.txt", 
+    "stored_sha256": "6bd249910726949afa4e5a9623ec3999151c3ef43843714a90003cfb11350309"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_approx_polish.txt", 
+    "modified": false, 
+    "original_sha256": "5f56627d50d4ef0e3c8c76225d3e72fd95c8c90ae629d65d32f202f792d5912a", 
+    "path": "org/apache/commons/codec/language/bm/ash_approx_polish.txt", 
+    "stored_sha256": "5f56627d50d4ef0e3c8c76225d3e72fd95c8c90ae629d65d32f202f792d5912a"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_approx_romanian.txt", 
+    "modified": false, 
+    "original_sha256": "900bcb8b852ce9738f85efacda91bbcaf0192d662f2fa996ebbe34e115801736", 
+    "path": "org/apache/commons/codec/language/bm/ash_approx_romanian.txt", 
+    "stored_sha256": "900bcb8b852ce9738f85efacda91bbcaf0192d662f2fa996ebbe34e115801736"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_approx_russian.txt", 
+    "modified": false, 
+    "original_sha256": "b908b81325099091067ecbaab232db0215b61ebd6899d0f7d989a013363a7cb3", 
+    "path": "org/apache/commons/codec/language/bm/ash_approx_russian.txt", 
+    "stored_sha256": "b908b81325099091067ecbaab232db0215b61ebd6899d0f7d989a013363a7cb3"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_approx_spanish.txt", 
+    "modified": false, 
+    "original_sha256": "6bd249910726949afa4e5a9623ec3999151c3ef43843714a90003cfb11350309", 
+    "path": "org/apache/commons/codec/language/bm/ash_approx_spanish.txt", 
+    "stored_sha256": "6bd249910726949afa4e5a9623ec3999151c3ef43843714a90003cfb11350309"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_exact_any.txt", 
+    "modified": false, 
+    "original_sha256": "bc6b6b423e6af997ce45348e17f3a0d6a18617cfe67b50bdb501cc97258c3d35", 
+    "path": "org/apache/commons/codec/language/bm/ash_exact_any.txt", 
+    "stored_sha256": "bc6b6b423e6af997ce45348e17f3a0d6a18617cfe67b50bdb501cc97258c3d35"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_exact_approx_common.txt", 
+    "modified": false, 
+    "original_sha256": "a1f947e071423aa5c24360484f85b7139f7a3ffe77d2089e367ca152743d1a19", 
+    "path": "org/apache/commons/codec/language/bm/ash_exact_approx_common.txt", 
+    "stored_sha256": "a1f947e071423aa5c24360484f85b7139f7a3ffe77d2089e367ca152743d1a19"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_exact_common.txt", 
+    "modified": false, 
+    "original_sha256": "fc3558377839a10375bb40146d9d12ec9b37487223023cc0769946aed24f352f", 
+    "path": "org/apache/commons/codec/language/bm/ash_exact_common.txt", 
+    "stored_sha256": "fc3558377839a10375bb40146d9d12ec9b37487223023cc0769946aed24f352f"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_exact_cyrillic.txt", 
+    "modified": false, 
+    "original_sha256": "265d93b530f2f0b3b2b602afda6e912370c0b01c06df4a2987119f6320bffb44", 
+    "path": "org/apache/commons/codec/language/bm/ash_exact_cyrillic.txt", 
+    "stored_sha256": "265d93b530f2f0b3b2b602afda6e912370c0b01c06df4a2987119f6320bffb44"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_exact_english.txt", 
+    "modified": false, 
+    "original_sha256": "265d93b530f2f0b3b2b602afda6e912370c0b01c06df4a2987119f6320bffb44", 
+    "path": "org/apache/commons/codec/language/bm/ash_exact_english.txt", 
+    "stored_sha256": "265d93b530f2f0b3b2b602afda6e912370c0b01c06df4a2987119f6320bffb44"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_exact_french.txt", 
+    "modified": false, 
+    "original_sha256": "265d93b530f2f0b3b2b602afda6e912370c0b01c06df4a2987119f6320bffb44", 
+    "path": "org/apache/commons/codec/language/bm/ash_exact_french.txt", 
+    "stored_sha256": "265d93b530f2f0b3b2b602afda6e912370c0b01c06df4a2987119f6320bffb44"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_exact_german.txt", 
+    "modified": false, 
+    "original_sha256": "32674f342f7c8b73fe831f46b0537df0a2b9d43c45fcded7617ddf28495c0e2a", 
+    "path": "org/apache/commons/codec/language/bm/ash_exact_german.txt", 
+    "stored_sha256": "32674f342f7c8b73fe831f46b0537df0a2b9d43c45fcded7617ddf28495c0e2a"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_exact_hebrew.txt", 
+    "modified": false, 
+    "original_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b", 
+    "path": "org/apache/commons/codec/language/bm/ash_exact_hebrew.txt", 
+    "stored_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_exact_hungarian.txt", 
+    "modified": false, 
+    "original_sha256": "265d93b530f2f0b3b2b602afda6e912370c0b01c06df4a2987119f6320bffb44", 
+    "path": "org/apache/commons/codec/language/bm/ash_exact_hungarian.txt", 
+    "stored_sha256": "265d93b530f2f0b3b2b602afda6e912370c0b01c06df4a2987119f6320bffb44"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_exact_polish.txt", 
+    "modified": false, 
+    "original_sha256": "d04d6e8ea4ed593f478fe1ff150a1f57ac30557c13f9f019fcf2b1658b6ff49e", 
+    "path": "org/apache/commons/codec/language/bm/ash_exact_polish.txt", 
+    "stored_sha256": "d04d6e8ea4ed593f478fe1ff150a1f57ac30557c13f9f019fcf2b1658b6ff49e"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_exact_romanian.txt", 
+    "modified": false, 
+    "original_sha256": "265d93b530f2f0b3b2b602afda6e912370c0b01c06df4a2987119f6320bffb44", 
+    "path": "org/apache/commons/codec/language/bm/ash_exact_romanian.txt", 
+    "stored_sha256": "265d93b530f2f0b3b2b602afda6e912370c0b01c06df4a2987119f6320bffb44"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_exact_russian.txt", 
+    "modified": false, 
+    "original_sha256": "34bfa509511f7517a628330cca7c5e51464ab4eef953834054f684d02e11ffc7", 
+    "path": "org/apache/commons/codec/language/bm/ash_exact_russian.txt", 
+    "stored_sha256": "34bfa509511f7517a628330cca7c5e51464ab4eef953834054f684d02e11ffc7"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_exact_spanish.txt", 
+    "modified": false, 
+    "original_sha256": "265d93b530f2f0b3b2b602afda6e912370c0b01c06df4a2987119f6320bffb44", 
+    "path": "org/apache/commons/codec/language/bm/ash_exact_spanish.txt", 
+    "stored_sha256": "265d93b530f2f0b3b2b602afda6e912370c0b01c06df4a2987119f6320bffb44"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_hebrew_common.txt", 
+    "modified": false, 
+    "original_sha256": "ad11a0f537e90b0893e8624e0c997dd8e2ece13dfe8b90b366d3a773f829bee5", 
+    "path": "org/apache/commons/codec/language/bm/ash_hebrew_common.txt", 
+    "stored_sha256": "ad11a0f537e90b0893e8624e0c997dd8e2ece13dfe8b90b366d3a773f829bee5"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_lang.txt", 
+    "modified": false, 
+    "original_sha256": "74950c1da02012bffced1707342fc5505fdda9e62b555c6798162240c42a4e81", 
+    "path": "org/apache/commons/codec/language/bm/ash_lang.txt", 
+    "stored_sha256": "74950c1da02012bffced1707342fc5505fdda9e62b555c6798162240c42a4e81"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_languages.txt", 
+    "modified": false, 
+    "original_sha256": "ee736888a0725497a11c74cca309ee21d520d5ad64b5541250e8f1da9138fe97", 
+    "path": "org/apache/commons/codec/language/bm/ash_languages.txt", 
+    "stored_sha256": "ee736888a0725497a11c74cca309ee21d520d5ad64b5541250e8f1da9138fe97"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_rules_any.txt", 
+    "modified": false, 
+    "original_sha256": "bdb60c3901ab057f4c94b384b302a0bdd7a6012ac07cf4edb87bd37b9283d17b", 
+    "path": "org/apache/commons/codec/language/bm/ash_rules_any.txt", 
+    "stored_sha256": "bdb60c3901ab057f4c94b384b302a0bdd7a6012ac07cf4edb87bd37b9283d17b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_rules_cyrillic.txt", 
+    "modified": false, 
+    "original_sha256": "361bc87691da6bfda59ff416ce61c922aae811944669fd05f537ac629eefed84", 
+    "path": "org/apache/commons/codec/language/bm/ash_rules_cyrillic.txt", 
+    "stored_sha256": "361bc87691da6bfda59ff416ce61c922aae811944669fd05f537ac629eefed84"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_rules_english.txt", 
+    "modified": false, 
+    "original_sha256": "7c28986e7dc911d8798ebe9f26b93d0487e632482fc5348363cd8ef94dac1a5e", 
+    "path": "org/apache/commons/codec/language/bm/ash_rules_english.txt", 
+    "stored_sha256": "7c28986e7dc911d8798ebe9f26b93d0487e632482fc5348363cd8ef94dac1a5e"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_rules_french.txt", 
+    "modified": false, 
+    "original_sha256": "234f4b1eeacea6c814af4494c155799c21387f2b3ce61c47f0f5e90e9592802a", 
+    "path": "org/apache/commons/codec/language/bm/ash_rules_french.txt", 
+    "stored_sha256": "234f4b1eeacea6c814af4494c155799c21387f2b3ce61c47f0f5e90e9592802a"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_rules_german.txt", 
+    "modified": false, 
+    "original_sha256": "00b0a4baf27ff74f992f39ff875df7b694efe7218f228734695b4b0817575758", 
+    "path": "org/apache/commons/codec/language/bm/ash_rules_german.txt", 
+    "stored_sha256": "00b0a4baf27ff74f992f39ff875df7b694efe7218f228734695b4b0817575758"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_rules_hebrew.txt", 
+    "modified": false, 
+    "original_sha256": "1e36828bd90a0721b6513f6f687eac503dc8c1a37824ae6e6d8d496344620194", 
+    "path": "org/apache/commons/codec/language/bm/ash_rules_hebrew.txt", 
+    "stored_sha256": "1e36828bd90a0721b6513f6f687eac503dc8c1a37824ae6e6d8d496344620194"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_rules_hungarian.txt", 
+    "modified": false, 
+    "original_sha256": "a247af30ac47cbaa87cc9458fe33a9fa101424d77565c7ca012b4e8b923a369d", 
+    "path": "org/apache/commons/codec/language/bm/ash_rules_hungarian.txt", 
+    "stored_sha256": "a247af30ac47cbaa87cc9458fe33a9fa101424d77565c7ca012b4e8b923a369d"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_rules_polish.txt", 
+    "modified": false, 
+    "original_sha256": "047bf7630b038e180ac407dc6bedb45ebbc42c01a7c9be7b17845c4e9b15f250", 
+    "path": "org/apache/commons/codec/language/bm/ash_rules_polish.txt", 
+    "stored_sha256": "047bf7630b038e180ac407dc6bedb45ebbc42c01a7c9be7b17845c4e9b15f250"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_rules_romanian.txt", 
+    "modified": false, 
+    "original_sha256": "212f03c2a1c539a08d4664107b107bddced3a461b6d5362335c0c1039dd88d7c", 
+    "path": "org/apache/commons/codec/language/bm/ash_rules_romanian.txt", 
+    "stored_sha256": "212f03c2a1c539a08d4664107b107bddced3a461b6d5362335c0c1039dd88d7c"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_rules_russian.txt", 
+    "modified": false, 
+    "original_sha256": "9d9904d23ec6031ff620967766cf72a06f5aa9ac958ebc9ab6c4956a19c2c76b", 
+    "path": "org/apache/commons/codec/language/bm/ash_rules_russian.txt", 
+    "stored_sha256": "9d9904d23ec6031ff620967766cf72a06f5aa9ac958ebc9ab6c4956a19c2c76b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/ash_rules_spanish.txt", 
+    "modified": false, 
+    "original_sha256": "c9e410a8a5c0965b39e39362a904bd107239bbfe0176348e003423e5e4812aa0", 
+    "path": "org/apache/commons/codec/language/bm/ash_rules_spanish.txt", 
+    "stored_sha256": "c9e410a8a5c0965b39e39362a904bd107239bbfe0176348e003423e5e4812aa0"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_any.txt", 
+    "modified": false, 
+    "original_sha256": "a72bbd45de8a31aa3ceaaa06513896c4abb59bc76ef945811a3edc63b55451d4", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_any.txt", 
+    "stored_sha256": "a72bbd45de8a31aa3ceaaa06513896c4abb59bc76ef945811a3edc63b55451d4"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_arabic.txt", 
+    "modified": false, 
+    "original_sha256": "838a47e6f968189a4a882b82220654ca219450956d2cf0ae0336d342894c598f", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_arabic.txt", 
+    "stored_sha256": "838a47e6f968189a4a882b82220654ca219450956d2cf0ae0336d342894c598f"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_common.txt", 
+    "modified": false, 
+    "original_sha256": "edf03e4f49c343d45b63ea9c3d470b6baf95a3688c5723ad1e85bdfb860e3314", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_common.txt", 
+    "stored_sha256": "edf03e4f49c343d45b63ea9c3d470b6baf95a3688c5723ad1e85bdfb860e3314"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_cyrillic.txt", 
+    "modified": false, 
+    "original_sha256": "f9a750d48156d8e8e1d94c8ed34dbf596c24efe945123d6e808af069dee2599a", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_cyrillic.txt", 
+    "stored_sha256": "f9a750d48156d8e8e1d94c8ed34dbf596c24efe945123d6e808af069dee2599a"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_czech.txt", 
+    "modified": false, 
+    "original_sha256": "e52b12a250fa593f99ca8a06e02b18a091518a1e6b66fd496e78a7db3888cc43", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_czech.txt", 
+    "stored_sha256": "e52b12a250fa593f99ca8a06e02b18a091518a1e6b66fd496e78a7db3888cc43"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_dutch.txt", 
+    "modified": false, 
+    "original_sha256": "e52b12a250fa593f99ca8a06e02b18a091518a1e6b66fd496e78a7db3888cc43", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_dutch.txt", 
+    "stored_sha256": "e52b12a250fa593f99ca8a06e02b18a091518a1e6b66fd496e78a7db3888cc43"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_english.txt", 
+    "modified": false, 
+    "original_sha256": "53739bd27868292338606ef7a1fd209b6253d35e94d7a4afb031769498d60d64", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_english.txt", 
+    "stored_sha256": "53739bd27868292338606ef7a1fd209b6253d35e94d7a4afb031769498d60d64"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_french.txt", 
+    "modified": false, 
+    "original_sha256": "1d9d34f64e5d8d3009749d9d818c0583463ee89f08c0f7d2b0544a4316acad47", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_french.txt", 
+    "stored_sha256": "1d9d34f64e5d8d3009749d9d818c0583463ee89f08c0f7d2b0544a4316acad47"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_german.txt", 
+    "modified": false, 
+    "original_sha256": "4330f43e087759d3616b02eb362074aed94698cb4d4f848a6e58f2532c5b0aeb", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_german.txt", 
+    "stored_sha256": "4330f43e087759d3616b02eb362074aed94698cb4d4f848a6e58f2532c5b0aeb"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_greek.txt", 
+    "modified": false, 
+    "original_sha256": "e52b12a250fa593f99ca8a06e02b18a091518a1e6b66fd496e78a7db3888cc43", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_greek.txt", 
+    "stored_sha256": "e52b12a250fa593f99ca8a06e02b18a091518a1e6b66fd496e78a7db3888cc43"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_greeklatin.txt", 
+    "modified": false, 
+    "original_sha256": "dffa002d397f85134af0350cc2fa75f1eddfd75a2a18be5a5761e3c80781f12e", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_greeklatin.txt", 
+    "stored_sha256": "dffa002d397f85134af0350cc2fa75f1eddfd75a2a18be5a5761e3c80781f12e"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_hebrew.txt", 
+    "modified": false, 
+    "original_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_hebrew.txt", 
+    "stored_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_hungarian.txt", 
+    "modified": false, 
+    "original_sha256": "f827f54af6560a4c6d615618433457e1c9dc06c78c7683dee6d4187cdbcd8c83", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_hungarian.txt", 
+    "stored_sha256": "f827f54af6560a4c6d615618433457e1c9dc06c78c7683dee6d4187cdbcd8c83"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_italian.txt", 
+    "modified": false, 
+    "original_sha256": "f827f54af6560a4c6d615618433457e1c9dc06c78c7683dee6d4187cdbcd8c83", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_italian.txt", 
+    "stored_sha256": "f827f54af6560a4c6d615618433457e1c9dc06c78c7683dee6d4187cdbcd8c83"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_polish.txt", 
+    "modified": false, 
+    "original_sha256": "d062343f0330e121c684e3e6943f7775855c78e965b043a839a4dba87336d4d8", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_polish.txt", 
+    "stored_sha256": "d062343f0330e121c684e3e6943f7775855c78e965b043a839a4dba87336d4d8"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_portuguese.txt", 
+    "modified": false, 
+    "original_sha256": "e52b12a250fa593f99ca8a06e02b18a091518a1e6b66fd496e78a7db3888cc43", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_portuguese.txt", 
+    "stored_sha256": "e52b12a250fa593f99ca8a06e02b18a091518a1e6b66fd496e78a7db3888cc43"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_romanian.txt", 
+    "modified": false, 
+    "original_sha256": "4e35dd86b22d8d011287b19aba8b1d4af9e8c63ebdf27d0899e8d9edf4d4b1ed", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_romanian.txt", 
+    "stored_sha256": "4e35dd86b22d8d011287b19aba8b1d4af9e8c63ebdf27d0899e8d9edf4d4b1ed"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_russian.txt", 
+    "modified": false, 
+    "original_sha256": "15e71e33faf7bb4558fd3f64ec9e38111bb04852343bc4a89b09ae127279caf0", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_russian.txt", 
+    "stored_sha256": "15e71e33faf7bb4558fd3f64ec9e38111bb04852343bc4a89b09ae127279caf0"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_spanish.txt", 
+    "modified": false, 
+    "original_sha256": "ca9391f883011b749197fbbc79776777d957dd5f55749d9a600c1d229f80b8df", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_spanish.txt", 
+    "stored_sha256": "ca9391f883011b749197fbbc79776777d957dd5f55749d9a600c1d229f80b8df"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_approx_turkish.txt", 
+    "modified": false, 
+    "original_sha256": "e52b12a250fa593f99ca8a06e02b18a091518a1e6b66fd496e78a7db3888cc43", 
+    "path": "org/apache/commons/codec/language/bm/gen_approx_turkish.txt", 
+    "stored_sha256": "e52b12a250fa593f99ca8a06e02b18a091518a1e6b66fd496e78a7db3888cc43"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_any.txt", 
+    "modified": false, 
+    "original_sha256": "cf8da3ee51d478dce1ff6fa1ccef2f65411308d47703f920423cc1172266623e", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_any.txt", 
+    "stored_sha256": "cf8da3ee51d478dce1ff6fa1ccef2f65411308d47703f920423cc1172266623e"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_approx_common.txt", 
+    "modified": false, 
+    "original_sha256": "948f6d4355ac74011cccd7bd54ec3bce4a29ea26c5d4518f019cdc1dcef27285", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_approx_common.txt", 
+    "stored_sha256": "948f6d4355ac74011cccd7bd54ec3bce4a29ea26c5d4518f019cdc1dcef27285"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_arabic.txt", 
+    "modified": false, 
+    "original_sha256": "891a20110c50fd5dd6c34ba71c11207e2e11948c3cca5f1554b3c934644f5a05", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_arabic.txt", 
+    "stored_sha256": "891a20110c50fd5dd6c34ba71c11207e2e11948c3cca5f1554b3c934644f5a05"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_common.txt", 
+    "modified": false, 
+    "original_sha256": "6a943ca8cf3f7bed1ff516de9a3ecf44f13c801d3dc967803b1b6a95ae45d372", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_common.txt", 
+    "stored_sha256": "6a943ca8cf3f7bed1ff516de9a3ecf44f13c801d3dc967803b1b6a95ae45d372"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_cyrillic.txt", 
+    "modified": false, 
+    "original_sha256": "fd5517e98eebfbe1f979ec21f9749e9d6cafd3e6798e5f31c173a0be08c025e5", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_cyrillic.txt", 
+    "stored_sha256": "fd5517e98eebfbe1f979ec21f9749e9d6cafd3e6798e5f31c173a0be08c025e5"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_czech.txt", 
+    "modified": false, 
+    "original_sha256": "fd5517e98eebfbe1f979ec21f9749e9d6cafd3e6798e5f31c173a0be08c025e5", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_czech.txt", 
+    "stored_sha256": "fd5517e98eebfbe1f979ec21f9749e9d6cafd3e6798e5f31c173a0be08c025e5"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_dutch.txt", 
+    "modified": false, 
+    "original_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_dutch.txt", 
+    "stored_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_english.txt", 
+    "modified": false, 
+    "original_sha256": "fd5517e98eebfbe1f979ec21f9749e9d6cafd3e6798e5f31c173a0be08c025e5", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_english.txt", 
+    "stored_sha256": "fd5517e98eebfbe1f979ec21f9749e9d6cafd3e6798e5f31c173a0be08c025e5"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_french.txt", 
+    "modified": false, 
+    "original_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_french.txt", 
+    "stored_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_german.txt", 
+    "modified": false, 
+    "original_sha256": "abe0c2b293dde37d051c84c0a60194b8c3038f399411b60f0706dcddfadb0bdf", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_german.txt", 
+    "stored_sha256": "abe0c2b293dde37d051c84c0a60194b8c3038f399411b60f0706dcddfadb0bdf"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_greek.txt", 
+    "modified": false, 
+    "original_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_greek.txt", 
+    "stored_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_greeklatin.txt", 
+    "modified": false, 
+    "original_sha256": "8784c2b1d8b8e206e3dfce6eda4f3dec800a1bc213dc4f4dc0cb09a8132a542c", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_greeklatin.txt", 
+    "stored_sha256": "8784c2b1d8b8e206e3dfce6eda4f3dec800a1bc213dc4f4dc0cb09a8132a542c"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_hebrew.txt", 
+    "modified": false, 
+    "original_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_hebrew.txt", 
+    "stored_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_hungarian.txt", 
+    "modified": false, 
+    "original_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_hungarian.txt", 
+    "stored_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_italian.txt", 
+    "modified": false, 
+    "original_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_italian.txt", 
+    "stored_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_polish.txt", 
+    "modified": false, 
+    "original_sha256": "6d805f7fc3172f02f11240b9043fedc535d0729a105f218205ddbcee3245781a", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_polish.txt", 
+    "stored_sha256": "6d805f7fc3172f02f11240b9043fedc535d0729a105f218205ddbcee3245781a"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_portuguese.txt", 
+    "modified": false, 
+    "original_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_portuguese.txt", 
+    "stored_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_romanian.txt", 
+    "modified": false, 
+    "original_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_romanian.txt", 
+    "stored_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_russian.txt", 
+    "modified": false, 
+    "original_sha256": "34bfa509511f7517a628330cca7c5e51464ab4eef953834054f684d02e11ffc7", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_russian.txt", 
+    "stored_sha256": "34bfa509511f7517a628330cca7c5e51464ab4eef953834054f684d02e11ffc7"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_spanish.txt", 
+    "modified": false, 
+    "original_sha256": "b3388ed5a9817dfa7172b1061cd2003068623c5b794b4d25a221225c893eddf2", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_spanish.txt", 
+    "stored_sha256": "b3388ed5a9817dfa7172b1061cd2003068623c5b794b4d25a221225c893eddf2"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_exact_turkish.txt", 
+    "modified": false, 
+    "original_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b", 
+    "path": "org/apache/commons/codec/language/bm/gen_exact_turkish.txt", 
+    "stored_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_hebrew_common.txt", 
+    "modified": false, 
+    "original_sha256": "4a989b869f2293590c21af2305da6588966aee6d3bde431b3e49123904b11bcf", 
+    "path": "org/apache/commons/codec/language/bm/gen_hebrew_common.txt", 
+    "stored_sha256": "4a989b869f2293590c21af2305da6588966aee6d3bde431b3e49123904b11bcf"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_lang.txt", 
+    "modified": false, 
+    "original_sha256": "cbc7a4cf7bf28a6bfc4a1804eaae511125f459f2a73da4c1c33b1ca9f58aabdb", 
+    "path": "org/apache/commons/codec/language/bm/gen_lang.txt", 
+    "stored_sha256": "cbc7a4cf7bf28a6bfc4a1804eaae511125f459f2a73da4c1c33b1ca9f58aabdb"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_languages.txt", 
+    "modified": false, 
+    "original_sha256": "b3165adaa36026c29338dc8d8f351cebc7423731465e1d6422f27d6778494c7d", 
+    "path": "org/apache/commons/codec/language/bm/gen_languages.txt", 
+    "stored_sha256": "b3165adaa36026c29338dc8d8f351cebc7423731465e1d6422f27d6778494c7d"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_rules_any.txt", 
+    "modified": false, 
+    "original_sha256": "d23d576829821edd7de13f6734eca746a767dd6d565a4cd18e33d9736df0d0ac", 
+    "path": "org/apache/commons/codec/language/bm/gen_rules_any.txt", 
+    "stored_sha256": "d23d576829821edd7de13f6734eca746a767dd6d565a4cd18e33d9736df0d0ac"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_rules_arabic.txt", 
+    "modified": false, 
+    "original_sha256": "82b707c79998031bda269fd7c1192ea1a9670c03ead09ee77a77ce4feca12c38", 
+    "path": "org/apache/commons/codec/language/bm/gen_rules_arabic.txt", 
+    "stored_sha256": "82b707c79998031bda269fd7c1192ea1a9670c03ead09ee77a77ce4feca12c38"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_rules_cyrillic.txt", 
+    "modified": false, 
+    "original_sha256": "0c8158127f19bd0e683bf883ab2fb7eb4c173a34ee51ab6752f56c932ab125e8", 
+    "path": "org/apache/commons/codec/language/bm/gen_rules_cyrillic.txt", 
+    "stored_sha256": "0c8158127f19bd0e683bf883ab2fb7eb4c173a34ee51ab6752f56c932ab125e8"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_rules_czech.txt", 
+    "modified": false, 
+    "original_sha256": "84de9e152412cd6129340590372571fedb14876054b5df3b82a2a36564fcd619", 
+    "path": "org/apache/commons/codec/language/bm/gen_rules_czech.txt", 
+    "stored_sha256": "84de9e152412cd6129340590372571fedb14876054b5df3b82a2a36564fcd619"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_rules_dutch.txt", 
+    "modified": false, 
+    "original_sha256": "9921e75dbbc942d2572a8660b0979329639e8707ffa9bb1de6b7d1a7a9955c2b", 
+    "path": "org/apache/commons/codec/language/bm/gen_rules_dutch.txt", 
+    "stored_sha256": "9921e75dbbc942d2572a8660b0979329639e8707ffa9bb1de6b7d1a7a9955c2b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_rules_english.txt", 
+    "modified": false, 
+    "original_sha256": "bcfb8723cbf3966b09ba0dc6f3dbbdc7882869c4e7af160f803c2f0519785a22", 
+    "path": "org/apache/commons/codec/language/bm/gen_rules_english.txt", 
+    "stored_sha256": "bcfb8723cbf3966b09ba0dc6f3dbbdc7882869c4e7af160f803c2f0519785a22"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_rules_french.txt", 
+    "modified": false, 
+    "original_sha256": "b5f12b085cfb4896a91020f901bc16e6f3164f0641e683b0d205a730560274b3", 
+    "path": "org/apache/commons/codec/language/bm/gen_rules_french.txt", 
+    "stored_sha256": "b5f12b085cfb4896a91020f901bc16e6f3164f0641e683b0d205a730560274b3"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_rules_german.txt", 
+    "modified": false, 
+    "original_sha256": "453d474ab996523a2f09a1c5897d8e3e1b4c045061227c052792f982e1c3c8b7", 
+    "path": "org/apache/commons/codec/language/bm/gen_rules_german.txt", 
+    "stored_sha256": "453d474ab996523a2f09a1c5897d8e3e1b4c045061227c052792f982e1c3c8b7"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_rules_greek.txt", 
+    "modified": false, 
+    "original_sha256": "6b56c5d8a9b6270f8777cce5f1b0860390aa218f7e2b43eeb1d7cbdb38778830", 
+    "path": "org/apache/commons/codec/language/bm/gen_rules_greek.txt", 
+    "stored_sha256": "6b56c5d8a9b6270f8777cce5f1b0860390aa218f7e2b43eeb1d7cbdb38778830"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_rules_greeklatin.txt", 
+    "modified": false, 
+    "original_sha256": "06122f03fe879f2ef78b0b76bf1412eb170c69fa828f40d7e7b907856656446e", 
+    "path": "org/apache/commons/codec/language/bm/gen_rules_greeklatin.txt", 
+    "stored_sha256": "06122f03fe879f2ef78b0b76bf1412eb170c69fa828f40d7e7b907856656446e"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_rules_hebrew.txt", 
+    "modified": false, 
+    "original_sha256": "a570f37f45f35f2e409b1173d955d83adc878da8187f899db930d5d19f89a5f1", 
+    "path": "org/apache/commons/codec/language/bm/gen_rules_hebrew.txt", 
+    "stored_sha256": "a570f37f45f35f2e409b1173d955d83adc878da8187f899db930d5d19f89a5f1"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_rules_hungarian.txt", 
+    "modified": false, 
+    "original_sha256": "16ba7cf79bf85089dc29fd92eff6358c893bc6aef85e6396dd29af7c41a4f611", 
+    "path": "org/apache/commons/codec/language/bm/gen_rules_hungarian.txt", 
+    "stored_sha256": "16ba7cf79bf85089dc29fd92eff6358c893bc6aef85e6396dd29af7c41a4f611"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_rules_italian.txt", 
+    "modified": false, 
+    "original_sha256": "99155dedf0caeaae4212877d0b90da52e0252812eee4ab06a9aaf5393b94afb0", 
+    "path": "org/apache/commons/codec/language/bm/gen_rules_italian.txt", 
+    "stored_sha256": "99155dedf0caeaae4212877d0b90da52e0252812eee4ab06a9aaf5393b94afb0"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_rules_polish.txt", 
+    "modified": false, 
+    "original_sha256": "e4e0eb610a8bccf71d39cd0e10b2c51e4d1f132a052d183c749511464ed51fc9", 
+    "path": "org/apache/commons/codec/language/bm/gen_rules_polish.txt", 
+    "stored_sha256": "e4e0eb610a8bccf71d39cd0e10b2c51e4d1f132a052d183c749511464ed51fc9"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_rules_portuguese.txt", 
+    "modified": false, 
+    "original_sha256": "0c51c2cc22988516b03f6afdd5699897b7cafe2b3e5d3676ab101941fbfd92dc", 
+    "path": "org/apache/commons/codec/language/bm/gen_rules_portuguese.txt", 
+    "stored_sha256": "0c51c2cc22988516b03f6afdd5699897b7cafe2b3e5d3676ab101941fbfd92dc"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_rules_romanian.txt", 
+    "modified": false, 
+    "original_sha256": "75ee26f3c6bf6cafc2258be21b820952e2e07c192919e34fd717dd81b0a2f4ad", 
+    "path": "org/apache/commons/codec/language/bm/gen_rules_romanian.txt", 
+    "stored_sha256": "75ee26f3c6bf6cafc2258be21b820952e2e07c192919e34fd717dd81b0a2f4ad"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_rules_russian.txt", 
+    "modified": false, 
+    "original_sha256": "ded105c857167c2ba8c44ced7cee000d6bcd7823a4851b698f8ea540115a7f37", 
+    "path": "org/apache/commons/codec/language/bm/gen_rules_russian.txt", 
+    "stored_sha256": "ded105c857167c2ba8c44ced7cee000d6bcd7823a4851b698f8ea540115a7f37"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_rules_spanish.txt", 
+    "modified": false, 
+    "original_sha256": "e7253c7c1ab7e46d29c85792be68c15a7bdb8937c364043f4c4c658d08f76a6b", 
+    "path": "org/apache/commons/codec/language/bm/gen_rules_spanish.txt", 
+    "stored_sha256": "e7253c7c1ab7e46d29c85792be68c15a7bdb8937c364043f4c4c658d08f76a6b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/gen_rules_turkish.txt", 
+    "modified": false, 
+    "original_sha256": "1800bab9aee6be5f57838bfaaf071009841c1af93d5dd22789e1a7643d199261", 
+    "path": "org/apache/commons/codec/language/bm/gen_rules_turkish.txt", 
+    "stored_sha256": "1800bab9aee6be5f57838bfaaf071009841c1af93d5dd22789e1a7643d199261"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/lang.txt", 
+    "modified": false, 
+    "original_sha256": "05987a68044246aa19eabb6abc5a6d9bd066cb250b7fdc95ae9672b7389dc91e", 
+    "path": "org/apache/commons/codec/language/bm/lang.txt", 
+    "stored_sha256": "05987a68044246aa19eabb6abc5a6d9bd066cb250b7fdc95ae9672b7389dc91e"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_approx_any.txt", 
+    "modified": false, 
+    "original_sha256": "47661c92b7bd2a3dbff0b19f2342281076f2877fab2592a0c076a555a813947f", 
+    "path": "org/apache/commons/codec/language/bm/sep_approx_any.txt", 
+    "stored_sha256": "47661c92b7bd2a3dbff0b19f2342281076f2877fab2592a0c076a555a813947f"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_approx_common.txt", 
+    "modified": false, 
+    "original_sha256": "7f3ea2985fd4b1b5e0f5a6544a47ab632497a7853b691aef5e6bd7320fcaa3a6", 
+    "path": "org/apache/commons/codec/language/bm/sep_approx_common.txt", 
+    "stored_sha256": "7f3ea2985fd4b1b5e0f5a6544a47ab632497a7853b691aef5e6bd7320fcaa3a6"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_approx_french.txt", 
+    "modified": false, 
+    "original_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b", 
+    "path": "org/apache/commons/codec/language/bm/sep_approx_french.txt", 
+    "stored_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_approx_hebrew.txt", 
+    "modified": false, 
+    "original_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b", 
+    "path": "org/apache/commons/codec/language/bm/sep_approx_hebrew.txt", 
+    "stored_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_approx_italian.txt", 
+    "modified": false, 
+    "original_sha256": "b6165dbda3d972b5c54b2191409a2c04ac35fc7dba0abf5ddf3c9ae13f9a98a0", 
+    "path": "org/apache/commons/codec/language/bm/sep_approx_italian.txt", 
+    "stored_sha256": "b6165dbda3d972b5c54b2191409a2c04ac35fc7dba0abf5ddf3c9ae13f9a98a0"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_approx_portuguese.txt", 
+    "modified": false, 
+    "original_sha256": "21d632279772ae8983832220505bcf0c6fb500f4ffade0f9908306d018710f13", 
+    "path": "org/apache/commons/codec/language/bm/sep_approx_portuguese.txt", 
+    "stored_sha256": "21d632279772ae8983832220505bcf0c6fb500f4ffade0f9908306d018710f13"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_approx_spanish.txt", 
+    "modified": false, 
+    "original_sha256": "21d632279772ae8983832220505bcf0c6fb500f4ffade0f9908306d018710f13", 
+    "path": "org/apache/commons/codec/language/bm/sep_approx_spanish.txt", 
+    "stored_sha256": "21d632279772ae8983832220505bcf0c6fb500f4ffade0f9908306d018710f13"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_exact_any.txt", 
+    "modified": false, 
+    "original_sha256": "df3f63b3946b8d5f05c4977ee5ab488da8162f4ad8cafa7a81cd8731b4954cb8", 
+    "path": "org/apache/commons/codec/language/bm/sep_exact_any.txt", 
+    "stored_sha256": "df3f63b3946b8d5f05c4977ee5ab488da8162f4ad8cafa7a81cd8731b4954cb8"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_exact_approx_common.txt", 
+    "modified": false, 
+    "original_sha256": "232f59750f9dedcf0bc2af194d16a1f434a56a0ace0415fe67924b73c7e22a32", 
+    "path": "org/apache/commons/codec/language/bm/sep_exact_approx_common.txt", 
+    "stored_sha256": "232f59750f9dedcf0bc2af194d16a1f434a56a0ace0415fe67924b73c7e22a32"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_exact_common.txt", 
+    "modified": false, 
+    "original_sha256": "c3654ad436be18536fef3e3872db7255659c413bfc9b5ad446b1467b68c8b8c0", 
+    "path": "org/apache/commons/codec/language/bm/sep_exact_common.txt", 
+    "stored_sha256": "c3654ad436be18536fef3e3872db7255659c413bfc9b5ad446b1467b68c8b8c0"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_exact_french.txt", 
+    "modified": false, 
+    "original_sha256": "9ddcb79875c3a49259e98faf98433c7d8c29e368dedea7155c9ff7171016857d", 
+    "path": "org/apache/commons/codec/language/bm/sep_exact_french.txt", 
+    "stored_sha256": "9ddcb79875c3a49259e98faf98433c7d8c29e368dedea7155c9ff7171016857d"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_exact_hebrew.txt", 
+    "modified": false, 
+    "original_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b", 
+    "path": "org/apache/commons/codec/language/bm/sep_exact_hebrew.txt", 
+    "stored_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_exact_italian.txt", 
+    "modified": false, 
+    "original_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b", 
+    "path": "org/apache/commons/codec/language/bm/sep_exact_italian.txt", 
+    "stored_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_exact_portuguese.txt", 
+    "modified": false, 
+    "original_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b", 
+    "path": "org/apache/commons/codec/language/bm/sep_exact_portuguese.txt", 
+    "stored_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_exact_spanish.txt", 
+    "modified": false, 
+    "original_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b", 
+    "path": "org/apache/commons/codec/language/bm/sep_exact_spanish.txt", 
+    "stored_sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_hebrew_common.txt", 
+    "modified": false, 
+    "original_sha256": "f54d8a4d50ac4331b34a9a6d6466108e8d462f590d83b88130cb439f760a74e8", 
+    "path": "org/apache/commons/codec/language/bm/sep_hebrew_common.txt", 
+    "stored_sha256": "f54d8a4d50ac4331b34a9a6d6466108e8d462f590d83b88130cb439f760a74e8"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_lang.txt", 
+    "modified": false, 
+    "original_sha256": "e63319156c076f8d60e944e5f998729f079316abd8e5c2f63e67b8de57fba69f", 
+    "path": "org/apache/commons/codec/language/bm/sep_lang.txt", 
+    "stored_sha256": "e63319156c076f8d60e944e5f998729f079316abd8e5c2f63e67b8de57fba69f"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_languages.txt", 
+    "modified": false, 
+    "original_sha256": "9cc12d4172e415642b4105d96717d9c9b28abca8abfb61b6443f4e9c47adaf87", 
+    "path": "org/apache/commons/codec/language/bm/sep_languages.txt", 
+    "stored_sha256": "9cc12d4172e415642b4105d96717d9c9b28abca8abfb61b6443f4e9c47adaf87"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_rules_any.txt", 
+    "modified": false, 
+    "original_sha256": "a334356decf81c182682d8e0d03e1727ab45a068446ed11c96809167aca1877f", 
+    "path": "org/apache/commons/codec/language/bm/sep_rules_any.txt", 
+    "stored_sha256": "a334356decf81c182682d8e0d03e1727ab45a068446ed11c96809167aca1877f"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_rules_french.txt", 
+    "modified": false, 
+    "original_sha256": "2a3cbe347fda0df595e3110959c49656c6ec6b6f3b7af69a67d5590f0729699b", 
+    "path": "org/apache/commons/codec/language/bm/sep_rules_french.txt", 
+    "stored_sha256": "2a3cbe347fda0df595e3110959c49656c6ec6b6f3b7af69a67d5590f0729699b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_rules_hebrew.txt", 
+    "modified": false, 
+    "original_sha256": "545919eeecaee7301ff14afe69c88faf0277f3568c154032be204d3ff0d9da68", 
+    "path": "org/apache/commons/codec/language/bm/sep_rules_hebrew.txt", 
+    "stored_sha256": "545919eeecaee7301ff14afe69c88faf0277f3568c154032be204d3ff0d9da68"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_rules_italian.txt", 
+    "modified": false, 
+    "original_sha256": "3b4d253710d0c9dd5649594047c8e10763094c10b7b518cfd84048c122255f9b", 
+    "path": "org/apache/commons/codec/language/bm/sep_rules_italian.txt", 
+    "stored_sha256": "3b4d253710d0c9dd5649594047c8e10763094c10b7b518cfd84048c122255f9b"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_rules_portuguese.txt", 
+    "modified": false, 
+    "original_sha256": "8a1e06755eba82e40de80beecdcabc01d8a0e9a547f1eabb35346e526bcf90b2", 
+    "path": "org/apache/commons/codec/language/bm/sep_rules_portuguese.txt", 
+    "stored_sha256": "8a1e06755eba82e40de80beecdcabc01d8a0e9a547f1eabb35346e526bcf90b2"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/bm/sep_rules_spanish.txt", 
+    "modified": false, 
+    "original_sha256": "57654b4355e47b908556126a8cf10f9a77dc49e5bf3b179e9797b4e9b47f88ed", 
+    "path": "org/apache/commons/codec/language/bm/sep_rules_spanish.txt", 
+    "stored_sha256": "57654b4355e47b908556126a8cf10f9a77dc49e5bf3b179e9797b4e9b47f88ed"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/commons/codec/language/dmrules.txt", 
+    "modified": false, 
+    "original_sha256": "2081d3acc1c5b5fc6d619f71fd89e9b00219f3f86a963edd2971dded11393c0d", 
+    "path": "org/apache/commons/codec/language/dmrules.txt", 
+    "stored_sha256": "2081d3acc1c5b5fc6d619f71fd89e9b00219f3f86a963edd2971dded11393c0d"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/http/client/version.properties", 
+    "modified": false, 
+    "original_sha256": "d0ab65dfa8ed57b9d3efe2b977f087822881efa3e1ee975300fccbf09e8f6640", 
+    "path": "org/apache/http/client/version.properties", 
+    "stored_sha256": "d0ab65dfa8ed57b9d3efe2b977f087822881efa3e1ee975300fccbf09e8f6640"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/http/nio/client/version.properties", 
+    "modified": false, 
+    "original_sha256": "98e43ce484488c49f328ce4cc21180c4a3d538dbe9bf7283296f60cc61fcc7cf", 
+    "path": "org/apache/http/nio/client/version.properties", 
+    "stored_sha256": "98e43ce484488c49f328ce4cc21180c4a3d538dbe9bf7283296f60cc61fcc7cf"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/http/nio/version.properties", 
+    "modified": false, 
+    "original_sha256": "436ee6d6f3b515bbde347bda1a974894a79fd035f785c073ff0564d3d0ce0e58", 
+    "path": "org/apache/http/nio/version.properties", 
+    "stored_sha256": "436ee6d6f3b515bbde347bda1a974894a79fd035f785c073ff0564d3d0ce0e58"
+  }, 
+  {
+    "destination": "src/main/resources/org/apache/http/version.properties", 
+    "modified": false, 
+    "original_sha256": "919fe0b0c299b229db742fdc93044f90b31b3e546dcda37f02fb75ec366ffe6b", 
+    "path": "org/apache/http/version.properties", 
+    "stored_sha256": "919fe0b0c299b229db742fdc93044f90b31b3e546dcda37f02fb75ec366ffe6b"
+  }, 
+  {
+    "destination": "src/main/resources/plugin.yml", 
+    "modified": true, 
+    "original_sha256": "5b7dc25207a4b36b85b5418d947988143218aa61e339f9572dbde75ef1112934", 
+    "path": "plugin.yml", 
+    "stored_sha256": "331308da17841f4f32aadf9c0a1eb61ae3fb1e205f44f11602f67eb70015c2b0"
+  }
+]
